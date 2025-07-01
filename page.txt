@@ -1,0 +1,7 @@
+大模型基础知识（https://share.note.youdao.com/s/GSQ0vgbU）
+
+conda命令（https://share.note.youdao.com/s/9odT5fu7）
+
+Ollama 使用（https://share.note.youdao.com/s/CcEk9r24）
+
+LLaMA Factory 使用（https://share.note.youdao.com/s/90bH0YzD）
