@@ -1,0 +1,1752 @@
+2025-06-05 14:52:50,370 - __main__ - INFO - Start the server on port 8012
+2025-06-05 14:52:53,118 - ragAgent - DEBUG - Tool 'retrieve' routed to 'grade_documents' (retrieval tool)
+2025-06-05 14:52:53,118 - ragAgent - DEBUG - Tool 'multiply' routed to 'generate' (non-retrieval tool)
+2025-06-05 14:52:53,119 - ragAgent - INFO - Initialized ToolConfig with tools: {'retrieve', 'multiply'}, routing: {'retrieve': 'grade_documents', 'multiply': 'generate'}
+2025-06-05 14:52:53,121 - __main__ - INFO - Database connection pool initialized
+2025-06-05 14:52:53,122 - __main__ - DEBUG - Database connection pool initialized
+2025-06-05 14:52:53,123 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 14:52:53,141 - ragAgent - INFO - Connection db_connection_pool status: OK, test connection successful
+2025-06-05 14:52:53,605 - ragAgent - INFO - Graph visualization saved as graph.png
+2025-06-05 14:53:46,059 - __main__ - INFO - The user's user_input is: 你好
+2025-06-05 14:53:46,089 - ragAgent - INFO - Agent processing user query
+2025-06-05 14:53:46,090 - ragAgent - INFO - agent question:content='你好' additional_kwargs={} response_metadata={} id='d42323a8-4094-42f6-a6d5-6e05dc7d8fc8'
+2025-06-05 14:53:46,389 - ragAgent - INFO - Loading and caching prompt template from prompts/prompt_template_agent.txt
+2025-06-05 14:53:46,969 - __main__ - INFO - Streaming chunk from agent: 你好
+2025-06-05 14:53:46,989 - __main__ - INFO - Streaming chunk from agent: ！
+2025-06-05 14:53:47,309 - __main__ - INFO - Streaming chunk from agent: 有什么
+2025-06-05 14:53:47,423 - __main__ - INFO - Streaming chunk from agent: 可以帮助你的吗？
+2025-06-05 14:53:47,537 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 14:53:53,125 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 14:54:25,692 - __main__ - INFO - The user's user_input is: 3*4
+2025-06-05 14:54:25,702 - ragAgent - INFO - Agent processing user query
+2025-06-05 14:54:25,703 - ragAgent - INFO - agent question:content='3*4' additional_kwargs={} response_metadata={} id='59b35e76-516d-4e52-a9ef-dbea31f5428e'
+2025-06-05 14:54:25,910 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-05 14:54:26,930 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 14:54:31,036 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 14:54:31,204 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 14:54:31,503 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 14:54:31,506 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 14:54:31,509 - ragAgent - INFO - Tool multiply routed to generate based on config
+2025-06-05 14:54:31,510 - ragAgent - INFO - Generating final response
+2025-06-05 14:54:31,511 - ragAgent - INFO - Loading and caching prompt template from prompts/prompt_template_generate.txt
+2025-06-05 14:54:31,882 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-05 14:54:31,882 - __main__ - INFO - Streaming chunk from generate: 3
+2025-06-05 14:54:32,057 - __main__ - INFO - Streaming chunk from generate: *4的结果是12
+2025-06-05 14:54:32,847 - __main__ - INFO - Streaming chunk from generate: .0。不过
+2025-06-05 14:54:33,153 - __main__ - INFO - Streaming chunk from generate: ，通常我们会说
+2025-06-05 14:54:33,575 - __main__ - INFO - Streaming chunk from generate: 这个结果就是12（
+2025-06-05 14:54:34,324 - __main__ - INFO - Streaming chunk from generate: 整数形式），
+2025-06-05 14:54:34,565 - __main__ - INFO - Streaming chunk from generate: 除非在特定情况下
+2025-06-05 14:54:35,368 - __main__ - INFO - Streaming chunk from generate: 需要强调它是12.
+2025-06-05 14:54:35,543 - __main__ - INFO - Streaming chunk from generate: 0（小数或
+2025-06-05 14:54:36,098 - __main__ - INFO - Streaming chunk from generate: 浮点数形式
+2025-06-05 14:54:36,428 - __main__ - INFO - Streaming chunk from generate: ）。在这里，根据
+2025-06-05 14:54:36,736 - __main__ - INFO - Streaming chunk from generate: 已知内容，答案
+2025-06-05 14:54:36,884 - __main__ - INFO - Streaming chunk from generate: 是12.
+2025-06-05 14:54:36,957 - __main__ - INFO - Streaming chunk from generate: 0。
+2025-06-05 14:54:37,004 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-05 14:54:53,126 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 14:55:53,127 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 14:56:03,037 - __main__ - INFO - The user's user_input is: 3*4
+2025-06-05 14:56:03,045 - ragAgent - INFO - Agent processing user query
+2025-06-05 14:56:03,046 - ragAgent - INFO - agent question:content='3*4' additional_kwargs={} response_metadata={} id='8b8f94b9-50cc-47e6-929f-5d8ff5ae42a3'
+2025-06-05 14:56:03,256 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-05 14:56:05,334 - __main__ - INFO - Final Response is: 3*4的结果是12。如果你有其他问题或需要进一步的帮助，请告诉我！
+2025-06-05 14:56:05,336 - __main__ - INFO - Results for Formatting: 3*4的结果是12。如果你有其他问题或需要进一步的帮助，请告诉我！
+2025-06-05 14:56:05,337 - __main__ - INFO - Send response content: 
+id='chatcmpl-8e05b26a530d43e8a236919306e5171f' object='chat.completion' created=1749106565 choices=[ChatCompletionResponseChoice(index=0, message=Message(role='assistant', content='3*4的结果是12。如果你有其他问题或需要进一步的帮助，请告诉我！'), finish_reason='stop')] system_fingerprint=None
+2025-06-05 14:56:34,914 - __main__ - INFO - Database connection pool closed
+2025-06-05 14:56:34,914 - __main__ - INFO - The service has been shut down
+2025-06-05 21:49:57,513 - __main__ - INFO - Start the server on port 8012
+2025-06-05 21:50:00,157 - ragAgent - DEBUG - Tool 'retrieve' routed to 'grade_documents' (retrieval tool)
+2025-06-05 21:50:00,158 - ragAgent - DEBUG - Tool 'multiply' routed to 'generate' (non-retrieval tool)
+2025-06-05 21:50:00,159 - ragAgent - INFO - Initialized ToolConfig with tools: {'multiply', 'retrieve'}, routing: {'retrieve': 'grade_documents', 'multiply': 'generate'}
+2025-06-05 21:50:00,160 - __main__ - INFO - Database connection pool initialized
+2025-06-05 21:50:00,161 - __main__ - DEBUG - Database connection pool initialized
+2025-06-05 21:50:00,162 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 21:50:00,177 - ragAgent - INFO - Connection db_connection_pool status: OK, test connection successful
+2025-06-05 21:50:00,354 - ragAgent - INFO - Graph visualization saved as graph.png
+2025-06-05 21:51:00,164 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 21:51:53,920 - __main__ - INFO - The user's user_input is: 你好
+2025-06-05 21:51:53,935 - ragAgent - INFO - Agent processing user query
+2025-06-05 21:51:53,936 - ragAgent - INFO - agent question:content='你好' additional_kwargs={} response_metadata={} id='0f2ba414-3e54-445a-8f19-559273105aad'
+2025-06-05 21:51:54,169 - ragAgent - INFO - Loading and caching prompt template from prompts/prompt_template_agent.txt
+2025-06-05 21:51:54,724 - __main__ - INFO - Streaming chunk from agent: 你好
+2025-06-05 21:51:54,768 - __main__ - INFO - Streaming chunk from agent: ！
+2025-06-05 21:51:54,864 - __main__ - INFO - Streaming chunk from agent: 有什么
+2025-06-05 21:51:55,075 - __main__ - INFO - Streaming chunk from agent: 我可以帮你的吗？
+2025-06-05 21:51:55,170 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 21:52:00,166 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 21:52:33,608 - __main__ - INFO - The user's user_input is: 3乘以4等于多少
+2025-06-05 21:52:33,617 - ragAgent - INFO - Agent processing user query
+2025-06-05 21:52:33,618 - ragAgent - INFO - agent question:content='3乘以4等于多少' additional_kwargs={} response_metadata={} id='0629b2b0-706c-4019-83cf-16d2436d44b3'
+2025-06-05 21:52:33,845 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-05 21:52:34,890 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 21:52:35,011 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 21:52:35,269 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 21:52:35,321 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 21:52:35,322 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 21:52:35,325 - ragAgent - INFO - Tool multiply routed to generate based on config
+2025-06-05 21:52:35,327 - ragAgent - INFO - Generating final response
+2025-06-05 21:52:35,328 - ragAgent - INFO - Loading and caching prompt template from prompts/prompt_template_generate.txt
+2025-06-05 21:52:35,679 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-05 21:52:35,680 - __main__ - INFO - Streaming chunk from generate: 3
+2025-06-05 21:52:35,756 - __main__ - INFO - Streaming chunk from generate: 乘以4等于12
+2025-06-05 21:52:35,807 - __main__ - INFO - Streaming chunk from generate: 。
+2025-06-05 21:52:35,874 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-05 21:53:00,167 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 21:53:31,762 - __main__ - INFO - The user's user_input is: 张三九的健康档案信息信息
+2025-06-05 21:53:31,769 - ragAgent - INFO - Agent processing user query
+2025-06-05 21:53:31,770 - ragAgent - INFO - agent question:content='张三九的健康档案信息信息' additional_kwargs={} response_metadata={} id='e8c5885c-5ace-4b78-9caf-dea612e2200c'
+2025-06-05 21:53:31,992 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-05 21:53:33,060 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 21:53:33,137 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 21:53:33,233 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 21:53:33,234 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 21:53:33,429 - ragAgent - INFO - Tool retrieve routed to grade_documents based on config
+2025-06-05 21:53:33,431 - ragAgent - INFO - Grading documents for relevance
+2025-06-05 21:53:33,432 - ragAgent - INFO - Loading and caching prompt template from prompts/prompt_template_grade.txt
+2025-06-05 21:53:34,802 - ragAgent - INFO - Document relevance score: yes
+2025-06-05 21:53:34,803 - ragAgent - INFO - Routing based on relevance_score: yes, rewrite_count: 0
+2025-06-05 21:53:34,804 - ragAgent - INFO - Documents are relevant, proceeding to generate
+2025-06-05 21:53:34,805 - ragAgent - INFO - Generating final response
+2025-06-05 21:53:34,806 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_generate.txt
+2025-06-05 21:53:35,698 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-05 21:53:35,700 - __main__ - INFO - Streaming chunk from generate: 根据
+2025-06-05 21:53:35,839 - __main__ - INFO - Streaming chunk from generate: 您提供的信息，张三
+2025-06-05 21:53:36,044 - __main__ - INFO - Streaming chunk from generate: 九的健康档案如下：
+
+
+2025-06-05 21:53:36,250 - __main__ - INFO - Streaming chunk from generate: ### 一、基本信息
+2025-06-05 21:53:36,458 - __main__ - INFO - Streaming chunk from generate: 
+- **姓名**：
+2025-06-05 21:53:36,579 - __main__ - INFO - Streaming chunk from generate: 张三九
+- **
+2025-06-05 21:53:36,815 - __main__ - INFO - Streaming chunk from generate: 性别**：男
+-
+2025-06-05 21:53:36,904 - __main__ - INFO - Streaming chunk from generate:  **出生日期**：1
+2025-06-05 21:53:37,200 - __main__ - INFO - Streaming chunk from generate: 985年5月
+2025-06-05 21:53:37,348 - __main__ - INFO - Streaming chunk from generate: 20日
+- **
+2025-06-05 21:53:37,544 - __main__ - INFO - Streaming chunk from generate: 年龄**：39岁
+2025-06-05 21:53:37,672 - __main__ - INFO - Streaming chunk from generate: 
+- **婚姻状况**
+2025-06-05 21:53:37,987 - __main__ - INFO - Streaming chunk from generate: ：已婚
+- **
+2025-06-05 21:53:38,108 - __main__ - INFO - Streaming chunk from generate: 职业**：IT工程师
+
+2025-06-05 21:53:38,293 - __main__ - INFO - Streaming chunk from generate: - **血型**：
+2025-06-05 21:53:38,424 - __main__ - INFO - Streaming chunk from generate: O型
+- **联系电话
+2025-06-05 21:53:38,614 - __main__ - INFO - Streaming chunk from generate: **：138-
+2025-06-05 21:53:38,751 - __main__ - INFO - Streaming chunk from generate: 1234-5
+2025-06-05 21:53:39,067 - __main__ - INFO - Streaming chunk from generate: 678
+- **
+2025-06-05 21:53:39,188 - __main__ - INFO - Streaming chunk from generate: 电子邮箱**：zhang
+2025-06-05 21:53:39,403 - __main__ - INFO - Streaming chunk from generate: san@example.com
+- **
+2025-06-05 21:53:39,708 - __main__ - INFO - Streaming chunk from generate: 居住地址**：上海市浦东
+2025-06-05 21:53:39,837 - __main__ - INFO - Streaming chunk from generate: 新区张江路12
+2025-06-05 21:53:40,092 - __main__ - INFO - Streaming chunk from generate: 3号
+- **紧急
+2025-06-05 21:53:40,163 - __main__ - INFO - Streaming chunk from generate: 联系人**：妻子
+2025-06-05 21:53:40,347 - __main__ - INFO - Streaming chunk from generate: 李四六
+
+2025-06-05 21:53:40,626 - __main__ - INFO - Streaming chunk from generate: - **紧急联系人电话
+2025-06-05 21:53:40,760 - __main__ - INFO - Streaming chunk from generate: **：138-
+2025-06-05 21:53:41,842 - __main__ - INFO - Streaming chunk from generate: 8765-4
+2025-06-05 21:53:41,965 - __main__ - INFO - Streaming chunk from generate: 321
+
+### 
+2025-06-05 21:53:42,170 - __main__ - INFO - Streaming chunk from generate: 二、医疗历史
+-
+2025-06-05 21:53:42,291 - __main__ - INFO - Streaming chunk from generate:  **高血压**：20
+2025-06-05 21:53:42,501 - __main__ - INFO - Streaming chunk from generate: 05年确诊，接受
+2025-06-05 21:53:42,626 - __main__ - INFO - Streaming chunk from generate: 降压药物治疗。
+
+2025-06-05 21:53:42,834 - __main__ - INFO - Streaming chunk from generate: - **二型糖尿病**
+2025-06-05 21:53:42,994 - __main__ - INFO - Streaming chunk from generate: ：2010年
+2025-06-05 21:53:43,159 - __main__ - INFO - Streaming chunk from generate: 确诊，使用口服降糖
+2025-06-05 21:53:43,293 - __main__ - INFO - Streaming chunk from generate: 药进行管理。
+-
+2025-06-05 21:53:43,494 - __main__ - INFO - Streaming chunk from generate:  **脂肪肝**：2
+2025-06-05 21:53:43,631 - __main__ - INFO - Streaming chunk from generate: 017年诊断，
+2025-06-05 21:53:43,848 - __main__ - INFO - Streaming chunk from generate: 建议通过饮食调整
+2025-06-05 21:53:44,084 - __main__ - INFO - Streaming chunk from generate: 和增加运动来改善。
+
+2025-06-05 21:53:44,292 - __main__ - INFO - Streaming chunk from generate: - **腰椎间盘
+2025-06-05 21:53:44,877 - __main__ - INFO - Streaming chunk from generate: 突出**：202
+2025-06-05 21:53:45,023 - __main__ - INFO - Streaming chunk from generate: 2年接受微创手术，
+2025-06-05 21:53:45,243 - __main__ - INFO - Streaming chunk from generate: 术后恢复良好。
+- **
+2025-06-05 21:53:45,456 - __main__ - INFO - Streaming chunk from generate: 过敏史**：
+
+2025-06-05 21:53:45,660 - __main__ - INFO - Streaming chunk from generate:   - 青霉素
+2025-06-05 21:53:45,873 - __main__ - INFO - Streaming chunk from generate: ：曾出现皮疹
+2025-06-05 21:53:46,067 - __main__ - INFO - Streaming chunk from generate: 和呼吸困难。
+  -
+2025-06-05 21:53:46,201 - __main__ - INFO - Streaming chunk from generate:  海鲜：轻度
+2025-06-05 21:53:46,405 - __main__ - INFO - Streaming chunk from generate: 皮肤发痒。
+
+
+2025-06-05 21:53:46,603 - __main__ - INFO - Streaming chunk from generate: - **家族病
+2025-06-05 21:53:46,818 - __main__ - INFO - Streaming chunk from generate: 史**：
+  -
+2025-06-05 21:53:46,950 - __main__ - INFO - Streaming chunk from generate:  父亲：患有
+2025-06-05 21:53:47,207 - __main__ - INFO - Streaming chunk from generate: 高血压和二型糖尿病。
+
+2025-06-05 21:53:47,302 - __main__ - INFO - Streaming chunk from generate:   - 母亲
+2025-06-05 21:53:47,521 - __main__ - INFO - Streaming chunk from generate: ：有甲状腺疾病史。
+
+
+2025-06-05 21:53:47,646 - __main__ - INFO - Streaming chunk from generate: ### 三、生活方式和
+2025-06-05 21:53:47,873 - __main__ - INFO - Streaming chunk from generate: 习惯
+- **饮食习惯
+2025-06-05 21:53:48,008 - __main__ - INFO - Streaming chunk from generate: **：偏向高脂肪和
+2025-06-05 21:53:48,197 - __main__ - INFO - Streaming chunk from generate: 高糖食品，蔬菜和
+2025-06-05 21:53:48,343 - __main__ - INFO - Streaming chunk from generate: 水果摄入较少，盐分
+2025-06-05 21:53:48,655 - __main__ - INFO - Streaming chunk from generate: 摄入偏高。
+- **
+2025-06-05 21:53:48,806 - __main__ - INFO - Streaming chunk from generate: 运动情况**：工作
+2025-06-05 21:53:49,016 - __main__ - INFO - Streaming chunk from generate: 繁忙，每周仅进行
+2025-06-05 21:53:49,171 - __main__ - INFO - Streaming chunk from generate: 一次轻度运动（
+2025-06-05 21:53:49,526 - __main__ - INFO - Streaming chunk from generate: 如散步）。
+- **
+2025-06-05 21:53:49,610 - __main__ - INFO - Streaming chunk from generate: 吸烟史**：无
+2025-06-05 21:53:49,827 - __main__ - INFO - Streaming chunk from generate: 。
+- **饮酒
+2025-06-05 21:53:49,945 - __main__ - INFO - Streaming chunk from generate: **：每周2
+2025-06-05 21:53:50,154 - __main__ - INFO - Streaming chunk from generate: 至3次，每次约
+2025-06-05 21:53:50,685 - __main__ - INFO - Streaming chunk from generate: 300毫升啤酒。
+
+2025-06-05 21:53:50,820 - __main__ - INFO - Streaming chunk from generate: - **睡眠**
+2025-06-05 21:53:51,027 - __main__ - INFO - Streaming chunk from generate: ：每晚平均
+2025-06-05 21:53:51,167 - __main__ - INFO - Streaming chunk from generate: 6小时，常常感到疲惫
+2025-06-05 21:53:51,386 - __main__ - INFO - Streaming chunk from generate: 。
+
+### 四、体检
+2025-06-05 21:53:51,641 - __main__ - INFO - Streaming chunk from generate: 与化验结果
+-
+2025-06-05 21:53:51,840 - __main__ - INFO - Streaming chunk from generate:  **最近一次体检时间
+2025-06-05 21:53:51,991 - __main__ - INFO - Streaming chunk from generate: **：2024
+2025-06-05 21:53:52,192 - __main__ - INFO - Streaming chunk from generate: 年8月15日
+2025-06-05 21:53:52,372 - __main__ - INFO - Streaming chunk from generate: 
+- **身高**：
+2025-06-05 21:53:52,557 - __main__ - INFO - Streaming chunk from generate: 175厘米
+-
+2025-06-05 21:53:52,717 - __main__ - INFO - Streaming chunk from generate:  **体重**：78
+2025-06-05 21:53:52,929 - __main__ - INFO - Streaming chunk from generate: 公斤
+- **体重指数
+2025-06-05 21:53:53,057 - __main__ - INFO - Streaming chunk from generate: （BMI）**：2
+2025-06-05 21:53:53,287 - __main__ - INFO - Streaming chunk from generate: 5.5（
+2025-06-05 21:53:53,577 - __main__ - INFO - Streaming chunk from generate: 超重）
+- **腰
+2025-06-05 21:53:53,718 - __main__ - INFO - Streaming chunk from generate: 围**：92厘米
+2025-06-05 21:53:53,919 - __main__ - INFO - Streaming chunk from generate: （略高于健康范围）
+
+2025-06-05 21:53:54,043 - __main__ - INFO - Streaming chunk from generate: - **血压**：1
+2025-06-05 21:53:54,254 - __main__ - INFO - Streaming chunk from generate: 35/85毫米
+2025-06-05 21:53:54,370 - __main__ - INFO - Streaming chunk from generate: 汞柱（轻度高血压
+2025-06-05 21:53:54,573 - __main__ - INFO - Streaming chunk from generate: ）
+- **心率**
+2025-06-05 21:53:54,960 - __main__ - INFO - Streaming chunk from generate: ：每分钟78
+2025-06-05 21:53:55,098 - __main__ - INFO - Streaming chunk from generate: 次（正常范围）
+-
+2025-06-05 21:53:55,303 - __main__ - INFO - Streaming chunk from generate:  **空腹血糖**：
+2025-06-05 21:53:55,460 - __main__ - INFO - Streaming chunk from generate: 6.8毫摩尔
+2025-06-05 21:53:55,663 - __main__ - INFO - Streaming chunk from generate: /升（略高于正常
+2025-06-05 21:53:55,765 - __main__ - INFO - Streaming chunk from generate: 范围）
+- **餐后
+2025-06-05 21:53:55,897 - __main__ - INFO - Streaming chunk from generate: 2小时血糖**：8
+2025-06-05 21:53:56,056 - __main__ - INFO - Streaming chunk from generate: .9毫摩尔/
+2025-06-05 21:53:56,147 - __main__ - INFO - Streaming chunk from generate: 升（高于正常标准）
+
+
+2025-06-05 21:53:56,377 - __main__ - INFO - Streaming chunk from generate: 以上是张三九
+2025-06-05 21:53:56,459 - __main__ - INFO - Streaming chunk from generate: 的健康档案信息。如果您
+2025-06-05 21:53:56,591 - __main__ - INFO - Streaming chunk from generate: 需要进一步的信息或
+2025-06-05 21:53:56,764 - __main__ - INFO - Streaming chunk from generate: 有其他问题，请
+2025-06-05 21:53:56,848 - __main__ - INFO - Streaming chunk from generate: 告诉我。
+2025-06-05 21:53:56,898 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-05 21:54:00,168 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 21:55:00,169 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 21:56:00,170 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 21:57:00,172 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 21:58:00,174 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 21:59:00,176 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:00:00,177 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:01:00,178 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:02:00,180 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:03:00,182 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:04:00,183 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:05:00,184 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:06:00,185 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:07:00,187 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:08:00,189 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:08:19,491 - __main__ - INFO - The user's user_input is: 你好，我是Kevin
+2025-06-05 22:08:19,498 - ragAgent - INFO - Agent processing user query
+2025-06-05 22:08:19,499 - ragAgent - INFO - agent question:content='你好，我是Kevin' additional_kwargs={} response_metadata={} id='64e91fcd-67e4-4f26-831f-f780f36f4edc'
+2025-06-05 22:08:19,704 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-05 22:08:20,574 - __main__ - INFO - Streaming chunk from agent: 你好
+2025-06-05 22:08:20,609 - __main__ - INFO - Streaming chunk from agent: ，Kevin
+2025-06-05 22:08:21,905 - __main__ - INFO - Streaming chunk from agent: ！有什么我能帮助你的吗
+2025-06-05 22:08:21,994 - __main__ - INFO - Streaming chunk from agent: ？
+2025-06-05 22:08:38,298 - __main__ - INFO - The user's user_input is: 我是谁？
+2025-06-05 22:08:38,305 - ragAgent - INFO - Agent processing user query
+2025-06-05 22:08:38,306 - ragAgent - INFO - agent question:content='我是谁？' additional_kwargs={} response_metadata={} id='e46b99ba-539b-4bc3-ac14-cb46ab3b2ae3'
+2025-06-05 22:08:38,524 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-05 22:08:39,125 - __main__ - INFO - Streaming chunk from agent: 你是
+2025-06-05 22:08:39,135 - __main__ - INFO - Streaming chunk from agent: Kevin
+2025-06-05 22:08:39,203 - __main__ - INFO - Streaming chunk from agent: 。
+2025-06-05 22:08:39,331 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 22:09:00,191 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:10:00,192 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:11:00,193 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:12:00,194 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:13:00,195 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:14:00,197 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:15:00,199 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:16:00,200 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:17:00,201 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:18:00,202 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:18:39,402 - __main__ - INFO - The user's user_input is: 10乘以20等于多少
+2025-06-05 22:18:39,409 - ragAgent - INFO - Agent processing user query
+2025-06-05 22:18:39,410 - ragAgent - INFO - agent question:content='10乘以20等于多少' additional_kwargs={} response_metadata={} id='7b6294bf-3992-4000-9330-5d032310e31d'
+2025-06-05 22:18:39,721 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-05 22:18:41,025 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 22:18:41,126 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 22:18:41,463 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 22:18:41,626 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 22:18:41,627 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 22:18:41,630 - ragAgent - INFO - Tool multiply routed to generate based on config
+2025-06-05 22:18:41,632 - ragAgent - INFO - Generating final response
+2025-06-05 22:18:41,633 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_generate.txt
+2025-06-05 22:18:42,044 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-05 22:18:42,045 - __main__ - INFO - Streaming chunk from generate: 1
+2025-06-05 22:18:42,574 - __main__ - INFO - Streaming chunk from generate: 0乘以20等于
+2025-06-05 22:18:45,047 - __main__ - INFO - Streaming chunk from generate: 200。
+2025-06-05 22:18:45,095 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-05 22:19:00,203 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:19:06,727 - __main__ - INFO - The user's user_input is: 张三九的健康档案信息
+2025-06-05 22:19:06,734 - ragAgent - INFO - Agent processing user query
+2025-06-05 22:19:06,735 - ragAgent - INFO - agent question:content='张三九的健康档案信息' additional_kwargs={} response_metadata={} id='319c6f4c-5476-4063-be1e-9f10a87d9a8f'
+2025-06-05 22:19:07,508 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-05 22:19:11,106 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 22:19:11,414 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 22:19:11,756 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 22:19:11,758 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 22:19:11,912 - ragAgent - INFO - Tool retrieve routed to grade_documents based on config
+2025-06-05 22:19:11,915 - ragAgent - INFO - Grading documents for relevance
+2025-06-05 22:19:11,916 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_grade.txt
+2025-06-05 22:19:13,199 - ragAgent - INFO - Document relevance score: yes
+2025-06-05 22:19:13,200 - ragAgent - INFO - Routing based on relevance_score: yes, rewrite_count: 0
+2025-06-05 22:19:13,201 - ragAgent - INFO - Documents are relevant, proceeding to generate
+2025-06-05 22:19:13,202 - ragAgent - INFO - Generating final response
+2025-06-05 22:19:13,203 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_generate.txt
+2025-06-05 22:19:14,251 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-05 22:19:14,252 - __main__ - INFO - Streaming chunk from generate: 根据
+2025-06-05 22:19:14,371 - __main__ - INFO - Streaming chunk from generate: 您提供的信息，张三
+2025-06-05 22:19:14,613 - __main__ - INFO - Streaming chunk from generate: 九的健康档案如下：
+
+
+2025-06-05 22:19:15,119 - __main__ - INFO - Streaming chunk from generate: ### 一、基本信息
+2025-06-05 22:19:15,227 - __main__ - INFO - Streaming chunk from generate: 
+- **姓名**：
+2025-06-05 22:19:15,361 - __main__ - INFO - Streaming chunk from generate: 张三九
+- **
+2025-06-05 22:19:15,530 - __main__ - INFO - Streaming chunk from generate: 性别**：男
+-
+2025-06-05 22:19:15,706 - __main__ - INFO - Streaming chunk from generate:  **出生日期**：1
+2025-06-05 22:19:15,879 - __main__ - INFO - Streaming chunk from generate: 985年5月
+2025-06-05 22:19:16,264 - __main__ - INFO - Streaming chunk from generate: 20日
+- **
+2025-06-05 22:19:17,857 - __main__ - INFO - Streaming chunk from generate: 年龄**：39岁
+2025-06-05 22:19:18,199 - __main__ - INFO - Streaming chunk from generate: 
+- **婚姻状况**
+2025-06-05 22:19:18,822 - __main__ - INFO - Streaming chunk from generate: ：已婚
+- **
+2025-06-05 22:19:19,165 - __main__ - INFO - Streaming chunk from generate: 职业**：IT工程师
+
+2025-06-05 22:19:19,280 - __main__ - INFO - Streaming chunk from generate: - **血型**：
+2025-06-05 22:19:19,422 - __main__ - INFO - Streaming chunk from generate: O型
+- **联系电话
+2025-06-05 22:19:19,693 - __main__ - INFO - Streaming chunk from generate: **：138-
+2025-06-05 22:19:19,814 - __main__ - INFO - Streaming chunk from generate: 1234-5
+2025-06-05 22:19:20,238 - __main__ - INFO - Streaming chunk from generate: 678
+- **
+2025-06-05 22:19:20,253 - __main__ - INFO - Streaming chunk from generate: 电子邮箱**：zhang
+2025-06-05 22:19:20,301 - __main__ - INFO - Streaming chunk from generate: san@example.com
+- **
+2025-06-05 22:19:20,595 - __main__ - INFO - Streaming chunk from generate: 住址**：上海市
+2025-06-05 22:19:20,687 - __main__ - INFO - Streaming chunk from generate: 浦东新区张江路1
+2025-06-05 22:19:20,831 - __main__ - INFO - Streaming chunk from generate: 23号
+
+2025-06-05 22:19:21,080 - __main__ - INFO - Streaming chunk from generate: - **紧急联系人**
+2025-06-05 22:19:21,595 - __main__ - INFO - Streaming chunk from generate: ：妻子李四六
+2025-06-05 22:19:21,700 - __main__ - INFO - Streaming chunk from generate: 
+- **紧急
+2025-06-05 22:19:22,029 - __main__ - INFO - Streaming chunk from generate: 联系人电话**：1
+2025-06-05 22:19:22,526 - __main__ - INFO - Streaming chunk from generate: 38-876
+2025-06-05 22:19:22,631 - __main__ - INFO - Streaming chunk from generate: 5-4321
+2025-06-05 22:19:25,573 - __main__ - INFO - Streaming chunk from generate: 
+
+### 二、医疗
+2025-06-05 22:19:26,159 - __main__ - INFO - Streaming chunk from generate: 历史
+- **高血压**
+2025-06-05 22:19:26,507 - __main__ - INFO - Streaming chunk from generate: ：2005年
+2025-06-05 22:19:26,656 - __main__ - INFO - Streaming chunk from generate: 确诊，接受降压药物
+2025-06-05 22:19:26,877 - __main__ - INFO - Streaming chunk from generate: 治疗。
+- **二
+2025-06-05 22:19:27,372 - __main__ - INFO - Streaming chunk from generate: 型糖尿病**：20
+2025-06-05 22:19:27,525 - __main__ - INFO - Streaming chunk from generate: 10年确诊，使用
+2025-06-05 22:19:28,014 - __main__ - INFO - Streaming chunk from generate: 口服降糖药管理。
+
+2025-06-05 22:19:28,173 - __main__ - INFO - Streaming chunk from generate: - **脂肪肝**：
+2025-06-05 22:19:28,448 - __main__ - INFO - Streaming chunk from generate: 2017年诊断
+2025-06-05 22:19:28,593 - __main__ - INFO - Streaming chunk from generate: ，建议通过饮食调整
+2025-06-05 22:19:28,963 - __main__ - INFO - Streaming chunk from generate: 和增加运动改善。
+-
+2025-06-05 22:19:29,373 - __main__ - INFO - Streaming chunk from generate:  **腰椎间盘突出
+2025-06-05 22:19:29,697 - __main__ - INFO - Streaming chunk from generate: **：2022
+2025-06-05 22:19:29,808 - __main__ - INFO - Streaming chunk from generate: 年接受了微创手术，
+2025-06-05 22:19:30,092 - __main__ - INFO - Streaming chunk from generate: 术后恢复良好。
+- **
+2025-06-05 22:19:30,286 - __main__ - INFO - Streaming chunk from generate: 过敏史**：
+
+2025-06-05 22:19:30,686 - __main__ - INFO - Streaming chunk from generate:   - 对青霉素过敏
+2025-06-05 22:19:30,885 - __main__ - INFO - Streaming chunk from generate: （皮疹和
+2025-06-05 22:19:31,453 - __main__ - INFO - Streaming chunk from generate: 呼吸困难）
+  -
+2025-06-05 22:19:31,551 - __main__ - INFO - Streaming chunk from generate:  对海鲜轻度过
+2025-06-05 22:19:31,805 - __main__ - INFO - Streaming chunk from generate: 敏（皮肤发痒）
+
+
+2025-06-05 22:19:32,740 - __main__ - INFO - Streaming chunk from generate: - **家族病史
+2025-06-05 22:19:32,850 - __main__ - INFO - Streaming chunk from generate: **：
+  -
+2025-06-05 22:19:32,991 - __main__ - INFO - Streaming chunk from generate:  父亲患有高血压和二
+2025-06-05 22:19:33,169 - __main__ - INFO - Streaming chunk from generate: 型糖尿病
+  -
+2025-06-05 22:19:34,067 - __main__ - INFO - Streaming chunk from generate:  母亲有
+2025-06-05 22:19:34,181 - __main__ - INFO - Streaming chunk from generate: 甲状腺疾病史
+
+### 
+2025-06-05 22:19:35,048 - __main__ - INFO - Streaming chunk from generate: 三、生活方式和习惯
+
+2025-06-05 22:19:35,168 - __main__ - INFO - Streaming chunk from generate: - **饮食习惯**：
+2025-06-05 22:19:35,353 - __main__ - INFO - Streaming chunk from generate: 偏好高脂肪和
+2025-06-05 22:19:35,481 - __main__ - INFO - Streaming chunk from generate: 高糖食品，蔬菜和
+2025-06-05 22:19:35,856 - __main__ - INFO - Streaming chunk from generate: 水果摄入较少，盐分
+2025-06-05 22:19:36,005 - __main__ - INFO - Streaming chunk from generate: 摄入偏高。
+- **
+2025-06-05 22:19:36,216 - __main__ - INFO - Streaming chunk from generate: 运动情况**：工作
+2025-06-05 22:19:36,338 - __main__ - INFO - Streaming chunk from generate: 繁忙，每周仅进行
+2025-06-05 22:19:36,542 - __main__ - INFO - Streaming chunk from generate: 一次轻度运动（如
+2025-06-05 22:19:36,633 - __main__ - INFO - Streaming chunk from generate: 散步）。
+- **吸烟
+2025-06-05 22:19:36,888 - __main__ - INFO - Streaming chunk from generate: 史**：无
+
+2025-06-05 22:19:37,007 - __main__ - INFO - Streaming chunk from generate: - **饮酒情况**：
+2025-06-05 22:19:37,146 - __main__ - INFO - Streaming chunk from generate: 每周饮酒2至
+2025-06-05 22:19:37,317 - __main__ - INFO - Streaming chunk from generate: 3次，每次约3
+2025-06-05 22:19:37,441 - __main__ - INFO - Streaming chunk from generate: 00毫升啤酒。
+-
+2025-06-05 22:19:37,589 - __main__ - INFO - Streaming chunk from generate:  **睡眠情况**：每
+2025-06-05 22:19:37,771 - __main__ - INFO - Streaming chunk from generate: 晚平均睡眠时间为6
+2025-06-05 22:19:37,888 - __main__ - INFO - Streaming chunk from generate: 小时，常常感到疲惫。
+
+
+2025-06-05 22:19:38,037 - __main__ - INFO - Streaming chunk from generate: ### 四、体检与
+2025-06-05 22:19:38,215 - __main__ - INFO - Streaming chunk from generate: 化验结果
+- **
+2025-06-05 22:19:38,327 - __main__ - INFO - Streaming chunk from generate: 最近一次体检时间
+2025-06-05 22:19:38,478 - __main__ - INFO - Streaming chunk from generate: **：2024
+2025-06-05 22:19:38,653 - __main__ - INFO - Streaming chunk from generate: 年8月15日
+2025-06-05 22:19:38,771 - __main__ - INFO - Streaming chunk from generate: 
+- **身高**：
+2025-06-05 22:19:38,915 - __main__ - INFO - Streaming chunk from generate: 175厘米
+-
+2025-06-05 22:19:39,098 - __main__ - INFO - Streaming chunk from generate:  **体重**：78
+2025-06-05 22:19:39,203 - __main__ - INFO - Streaming chunk from generate: 公斤
+- **BMI
+2025-06-05 22:19:39,656 - __main__ - INFO - Streaming chunk from generate: **：25.5
+2025-06-05 22:19:39,892 - __main__ - INFO - Streaming chunk from generate: （超重）
+- **
+2025-06-05 22:19:40,074 - __main__ - INFO - Streaming chunk from generate: 腰围**：92
+2025-06-05 22:19:40,190 - __main__ - INFO - Streaming chunk from generate: 厘米（略高于健康范围
+2025-06-05 22:19:40,334 - __main__ - INFO - Streaming chunk from generate: ）
+- **血压**：
+2025-06-05 22:19:40,640 - __main__ - INFO - Streaming chunk from generate: 135/85
+2025-06-05 22:19:40,747 - __main__ - INFO - Streaming chunk from generate: 毫米汞柱（轻度
+2025-06-05 22:19:40,921 - __main__ - INFO - Streaming chunk from generate: 高血压）
+- **心率
+2025-06-05 22:19:41,744 - __main__ - INFO - Streaming chunk from generate: **：每分钟7
+2025-06-05 22:19:41,888 - __main__ - INFO - Streaming chunk from generate: 8次（正常范围）
+
+2025-06-05 22:19:42,124 - __main__ - INFO - Streaming chunk from generate: - **空腹血糖**
+2025-06-05 22:19:42,261 - __main__ - INFO - Streaming chunk from generate: ：6.8毫摩
+2025-06-05 22:19:42,375 - __main__ - INFO - Streaming chunk from generate: 尔/升（略高于
+2025-06-05 22:19:42,650 - __main__ - INFO - Streaming chunk from generate: 正常范围）
+- **餐
+2025-06-05 22:19:43,105 - __main__ - INFO - Streaming chunk from generate: 后2小时血糖**：
+2025-06-05 22:19:43,215 - __main__ - INFO - Streaming chunk from generate: 8.9毫摩尔
+2025-06-05 22:19:43,358 - __main__ - INFO - Streaming chunk from generate: /升（高于正常标准
+2025-06-05 22:19:44,101 - __main__ - INFO - Streaming chunk from generate: ）
+
+以上是张三九
+2025-06-05 22:19:44,213 - __main__ - INFO - Streaming chunk from generate: 的健康档案信息。如果您
+2025-06-05 22:19:44,398 - __main__ - INFO - Streaming chunk from generate: 需要更详细的信息或
+2025-06-05 22:19:44,588 - __main__ - INFO - Streaming chunk from generate: 有其他问题，请
+2025-06-05 22:19:44,775 - __main__ - INFO - Streaming chunk from generate: 告诉我。
+2025-06-05 22:19:44,826 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-05 22:20:00,204 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:20:04,326 - __main__ - INFO - The user's user_input is: 你好，我是Kevin
+2025-06-05 22:20:04,333 - ragAgent - INFO - Agent processing user query
+2025-06-05 22:20:04,334 - ragAgent - INFO - agent question:content='你好，我是Kevin' additional_kwargs={} response_metadata={} id='08b551c7-e7a3-45bb-b9ee-e43aa6cc6ad4'
+2025-06-05 22:20:04,832 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-05 22:20:06,217 - __main__ - INFO - Streaming chunk from agent: 你好
+2025-06-05 22:20:06,282 - __main__ - INFO - Streaming chunk from agent: ，Kevin
+2025-06-05 22:20:06,634 - __main__ - INFO - Streaming chunk from agent: ！有什么我可以帮
+2025-06-05 22:20:07,132 - __main__ - INFO - Streaming chunk from agent: 你的吗？
+2025-06-05 22:20:17,324 - __main__ - INFO - The user's user_input is: 我是谁？
+2025-06-05 22:20:17,331 - ragAgent - INFO - Agent processing user query
+2025-06-05 22:20:17,332 - ragAgent - INFO - agent question:content='我是谁？' additional_kwargs={} response_metadata={} id='c9c1faf2-5f02-4a49-b7e3-30dc93993b6a'
+2025-06-05 22:20:17,657 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-05 22:20:18,572 - __main__ - INFO - Streaming chunk from agent: 你是
+2025-06-05 22:20:18,624 - __main__ - INFO - Streaming chunk from agent: Kevin
+2025-06-05 22:20:18,769 - __main__ - INFO - Streaming chunk from agent: 。
+2025-06-05 22:20:19,126 - __main__ - INFO - Streaming chunk from agent: 有什么我可以帮你的吗？
+2025-06-05 22:20:19,228 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-05 22:21:00,205 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-05 22:21:58,946 - __main__ - INFO - Database connection pool closed
+2025-06-05 22:21:58,947 - __main__ - INFO - The service has been shut down
+2025-06-06 20:08:38,645 - __main__ - INFO - Start the server on port 8012
+2025-06-06 20:08:41,760 - ragAgent - DEBUG - Tool 'retrieve' routed to 'grade_documents' (retrieval tool)
+2025-06-06 20:08:41,761 - ragAgent - DEBUG - Tool 'multiply' routed to 'generate' (non-retrieval tool)
+2025-06-06 20:08:41,761 - ragAgent - INFO - Initialized ToolConfig with tools: {'retrieve', 'multiply'}, routing: {'retrieve': 'grade_documents', 'multiply': 'generate'}
+2025-06-06 20:08:41,763 - __main__ - INFO - Database connection pool initialized
+2025-06-06 20:08:41,764 - __main__ - DEBUG - Database connection pool initialized
+2025-06-06 20:08:41,765 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:08:41,782 - ragAgent - INFO - Connection db_connection_pool status: OK, test connection successful
+2025-06-06 20:08:42,222 - ragAgent - INFO - Graph visualization saved as graph.png
+2025-06-06 20:09:13,978 - __main__ - INFO - The user's user_input is: 3*4
+2025-06-06 20:09:14,005 - ragAgent - INFO - Agent processing user query
+2025-06-06 20:09:14,006 - ragAgent - INFO - agent question:content='3*4' additional_kwargs={} response_metadata={} id='f75acb60-b951-4f05-9c15-9d19f393cd70'
+2025-06-06 20:09:14,231 - ragAgent - INFO - Loading and caching prompt template from prompts/prompt_template_agent.txt
+2025-06-06 20:09:16,274 - __main__ - INFO - Final Response is: 3*4的结果是12。如果你有其他问题或需要进一步的帮助，请告诉我！
+2025-06-06 20:09:16,275 - __main__ - INFO - Results for Formatting: 3*4的结果是12。如果你有其他问题或需要进一步的帮助，请告诉我！
+2025-06-06 20:09:16,276 - __main__ - INFO - Send response content: 
+id='chatcmpl-a81164e6420a4f579ed69437f7fcc0ee' object='chat.completion' created=1749211756 choices=[ChatCompletionResponseChoice(index=0, message=Message(role='assistant', content='3*4的结果是12。如果你有其他问题或需要进一步的帮助，请告诉我！'), finish_reason='stop')] system_fingerprint=None
+2025-06-06 20:09:41,766 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:10:41,768 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:10:59,753 - __main__ - INFO - The user's user_input is: 查询张三九的健康档案信息
+2025-06-06 20:10:59,761 - ragAgent - INFO - Agent processing user query
+2025-06-06 20:10:59,763 - ragAgent - INFO - agent question:content='查询张三九的健康档案信息' additional_kwargs={} response_metadata={} id='3ebb0fd9-a0cf-4350-b572-355c093bd472'
+2025-06-06 20:11:00,008 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-06 20:11:01,536 - __main__ - INFO - Calling tool: retrieve
+2025-06-06 20:11:01,739 - ragAgent - INFO - Tool retrieve routed to grade_documents based on config
+2025-06-06 20:11:01,740 - __main__ - INFO - Tool Output [retrieve]: 健康档案 一、基本信息 张三九，男，出生于 1985 年 5 月 20 日，目前 39 岁，已婚，职业为 IT 工程师。 张三九的 血型为 O 型，联系电话为 138-1234-5678，电子邮箱为 zhangsan@example.com，居住在 上海市浦东新区张江路 123 号。 其紧急联系人为妻子李四六，联系电话为 138-8765-4321。 二、医疗历史 张三九在 2005 年被确诊为高血压，自此开始接受降压药物治疗。 2010 年，他被确诊为二 型糖尿病，并开始使用口服降糖药进行管理。 2017 年，张三九被诊断为脂肪肝，医生建议 通过饮食调整和增加运动来改善这一状况。 2022 年，他因腰椎间盘突出接受了微创手术， 术后恢复良好。 此外，张三九对青霉素有过敏反应，曾出现皮疹和呼吸困难。 海鲜会导致轻 度皮肤发痒，表明他对海鲜也有一定的过敏反应。 张三九的家族病史显示，父亲患有高血压 和二型糖尿病，母亲则有甲状腺疾病史。 三、生活方式和习惯 张三九的饮食习惯偏向高脂肪和高糖食品，日常饮食中蔬菜和水果的摄入较少，盐分摄入偏 高。 他的工作繁忙，运动较少，每周仅进行一次轻度运动，如散步。 张三九无吸烟史，但每 周饮酒 2 至 3 次，每次约 300 毫升啤酒。 他的平均睡眠时间为每晚 6 小时，常常感到疲惫。 四、体检与化验结果 张三九最近一次体检是在 2024 年 8 月 15 日，体检结果显示他的身高为 175 厘米，体重为 78 公斤，体重指数（BMI）为 25.5，表明体重超重。 他的腰围为 92 厘米，略高于健康范围。 血压测量结果为 135/85 毫米汞柱，属于轻度高血压范围。 心率为每分钟 78 次，处于正常 范围。 在实验室检查中，张三九的空腹血糖为 6.8 毫摩尔/升，略高于正常范围； 餐后 2 小时血糖 为 8.9 毫摩尔/升，也高于正常标准。
+
+健康档案 一、基本信息 张三九，男，出生于 1985 年 5 月 20 日，目前 39 岁，已婚，职业为 IT 工程师。 张三九的 血型为 O 型，联系电话为 138-1234-5678，电子邮箱为 zhangsan@example.com，居住在 上海市浦东新区张江路 123 号。 其紧急联系人为妻子李四六，联系电话为 138-8765-4321。 二、医疗历史 张三九在 2005 年被确诊为高血压，自此开始接受降压药物治疗。 2010 年，他被确诊为二 型糖尿病，并开始使用口服降糖药进行管理。 2017 年，张三九被诊断为脂肪肝，医生建议 通过饮食调整和增加运动来改善这一状况。 2022 年，他因腰椎间盘突出接受了微创手术， 术后恢复良好。 此外，张三九对青霉素有过敏反应，曾出现皮疹和呼吸困难。 海鲜会导致轻 度皮肤发痒，表明他对海鲜也有一定的过敏反应。 张三九的家族病史显示，父亲患有高血压 和二型糖尿病，母亲则有甲状腺疾病史。 三、生活方式和习惯 张三九的饮食习惯偏向高脂肪和高糖食品，日常饮食中蔬菜和水果的摄入较少，盐分摄入偏 高。 他的工作繁忙，运动较少，每周仅进行一次轻度运动，如散步。 张三九无吸烟史，但每 周饮酒 2 至 3 次，每次约 300 毫升啤酒。 他的平均睡眠时间为每晚 6 小时，常常感到疲惫。 四、体检与化验结果 张三九最近一次体检是在 2024 年 8 月 15 日，体检结果显示他的身高为 175 厘米，体重为 78 公斤，体重指数（BMI）为 25.5，表明体重超重。 他的腰围为 92 厘米，略高于健康范围。 血压测量结果为 135/85 毫米汞柱，属于轻度高血压范围。 心率为每分钟 78 次，处于正常 范围。 在实验室检查中，张三九的空腹血糖为 6.8 毫摩尔/升，略高于正常范围； 餐后 2 小时血糖 为 8.9 毫摩尔/升，也高于正常标准。
+
+健康档案 一、基本信息 张三九，男，出生于 1985 年 5 月 20 日，目前 39 岁，已婚，职业为 IT 工程师。 张三九的 血型为 O 型，联系电话为 138-1234-5678，电子邮箱为 zhangsan@example.com，居住在 上海市浦东新区张江路 123 号。 其紧急联系人为妻子李四六，联系电话为 138-8765-4321。 二、医疗历史 张三九在 2005 年被确诊为高血压，自此开始接受降压药物治疗。 2010 年，他被确诊为二 型糖尿病，并开始使用口服降糖药进行管理。 2017 年，张三九被诊断为脂肪肝，医生建议 通过饮食调整和增加运动来改善这一状况。 2022 年，他因腰椎间盘突出接受了微创手术， 术后恢复良好。 此外，张三九对青霉素有过敏反应，曾出现皮疹和呼吸困难。 海鲜会导致轻 度皮肤发痒，表明他对海鲜也有一定的过敏反应。 张三九的家族病史显示，父亲患有高血压 和二型糖尿病，母亲则有甲状腺疾病史。 三、生活方式和习惯 张三九的饮食习惯偏向高脂肪和高糖食品，日常饮食中蔬菜和水果的摄入较少，盐分摄入偏 高。 他的工作繁忙，运动较少，每周仅进行一次轻度运动，如散步。 张三九无吸烟史，但每 周饮酒 2 至 3 次，每次约 300 毫升啤酒。 他的平均睡眠时间为每晚 6 小时，常常感到疲惫。 四、体检与化验结果 张三九最近一次体检是在 2024 年 8 月 15 日，体检结果显示他的身高为 175 厘米，体重为 78 公斤，体重指数（BMI）为 25.5，表明体重超重。 他的腰围为 92 厘米，略高于健康范围。 血压测量结果为 135/85 毫米汞柱，属于轻度高血压范围。 心率为每分钟 78 次，处于正常 范围。 在实验室检查中，张三九的空腹血糖为 6.8 毫摩尔/升，略高于正常范围； 餐后 2 小时血糖 为 8.9 毫摩尔/升，也高于正常标准。
+
+健康档案 一、基本信息 张三九，男，出生于 1985 年 5 月 20 日，目前 39 岁，已婚，职业为 IT 工程师。 张三九的 血型为 O 型，联系电话为 138-1234-5678，电子邮箱为 zhangsan@example.com，居住在 上海市浦东新区张江路 123 号。 其紧急联系人为妻子李四六，联系电话为 138-8765-4321。 二、医疗历史 张三九在 2005 年被确诊为高血压，自此开始接受降压药物治疗。 2010 年，他被确诊为二 型糖尿病，并开始使用口服降糖药进行管理。 2017 年，张三九被诊断为脂肪肝，医生建议 通过饮食调整和增加运动来改善这一状况。 2022 年，他因腰椎间盘突出接受了微创手术， 术后恢复良好。 此外，张三九对青霉素有过敏反应，曾出现皮疹和呼吸困难。 海鲜会导致轻 度皮肤发痒，表明他对海鲜也有一定的过敏反应。 张三九的家族病史显示，父亲患有高血压 和二型糖尿病，母亲则有甲状腺疾病史。 三、生活方式和习惯 张三九的饮食习惯偏向高脂肪和高糖食品，日常饮食中蔬菜和水果的摄入较少，盐分摄入偏 高。 他的工作繁忙，运动较少，每周仅进行一次轻度运动，如散步。 张三九无吸烟史，但每 周饮酒 2 至 3 次，每次约 300 毫升啤酒。 他的平均睡眠时间为每晚 6 小时，常常感到疲惫。 四、体检与化验结果 张三九最近一次体检是在 2024 年 8 月 15 日，体检结果显示他的身高为 175 厘米，体重为 78 公斤，体重指数（BMI）为 25.5，表明体重超重。 他的腰围为 92 厘米，略高于健康范围。 血压测量结果为 135/85 毫米汞柱，属于轻度高血压范围。 心率为每分钟 78 次，处于正常 范围。 在实验室检查中，张三九的空腹血糖为 6.8 毫摩尔/升，略高于正常范围； 餐后 2 小时血糖 为 8.9 毫摩尔/升，也高于正常标准。
+2025-06-06 20:11:01,742 - ragAgent - INFO - Grading documents for relevance
+2025-06-06 20:11:01,743 - ragAgent - INFO - Loading and caching prompt template from prompts/prompt_template_grade.txt
+2025-06-06 20:11:02,996 - ragAgent - INFO - Document relevance score: yes
+2025-06-06 20:11:02,997 - ragAgent - INFO - Routing based on relevance_score: yes, rewrite_count: 0
+2025-06-06 20:11:02,998 - ragAgent - INFO - Documents are relevant, proceeding to generate
+2025-06-06 20:11:02,999 - __main__ - INFO - Tool Output [retrieve]: 健康档案 一、基本信息 张三九，男，出生于 1985 年 5 月 20 日，目前 39 岁，已婚，职业为 IT 工程师。 张三九的 血型为 O 型，联系电话为 138-1234-5678，电子邮箱为 zhangsan@example.com，居住在 上海市浦东新区张江路 123 号。 其紧急联系人为妻子李四六，联系电话为 138-8765-4321。 二、医疗历史 张三九在 2005 年被确诊为高血压，自此开始接受降压药物治疗。 2010 年，他被确诊为二 型糖尿病，并开始使用口服降糖药进行管理。 2017 年，张三九被诊断为脂肪肝，医生建议 通过饮食调整和增加运动来改善这一状况。 2022 年，他因腰椎间盘突出接受了微创手术， 术后恢复良好。 此外，张三九对青霉素有过敏反应，曾出现皮疹和呼吸困难。 海鲜会导致轻 度皮肤发痒，表明他对海鲜也有一定的过敏反应。 张三九的家族病史显示，父亲患有高血压 和二型糖尿病，母亲则有甲状腺疾病史。 三、生活方式和习惯 张三九的饮食习惯偏向高脂肪和高糖食品，日常饮食中蔬菜和水果的摄入较少，盐分摄入偏 高。 他的工作繁忙，运动较少，每周仅进行一次轻度运动，如散步。 张三九无吸烟史，但每 周饮酒 2 至 3 次，每次约 300 毫升啤酒。 他的平均睡眠时间为每晚 6 小时，常常感到疲惫。 四、体检与化验结果 张三九最近一次体检是在 2024 年 8 月 15 日，体检结果显示他的身高为 175 厘米，体重为 78 公斤，体重指数（BMI）为 25.5，表明体重超重。 他的腰围为 92 厘米，略高于健康范围。 血压测量结果为 135/85 毫米汞柱，属于轻度高血压范围。 心率为每分钟 78 次，处于正常 范围。 在实验室检查中，张三九的空腹血糖为 6.8 毫摩尔/升，略高于正常范围； 餐后 2 小时血糖 为 8.9 毫摩尔/升，也高于正常标准。
+
+健康档案 一、基本信息 张三九，男，出生于 1985 年 5 月 20 日，目前 39 岁，已婚，职业为 IT 工程师。 张三九的 血型为 O 型，联系电话为 138-1234-5678，电子邮箱为 zhangsan@example.com，居住在 上海市浦东新区张江路 123 号。 其紧急联系人为妻子李四六，联系电话为 138-8765-4321。 二、医疗历史 张三九在 2005 年被确诊为高血压，自此开始接受降压药物治疗。 2010 年，他被确诊为二 型糖尿病，并开始使用口服降糖药进行管理。 2017 年，张三九被诊断为脂肪肝，医生建议 通过饮食调整和增加运动来改善这一状况。 2022 年，他因腰椎间盘突出接受了微创手术， 术后恢复良好。 此外，张三九对青霉素有过敏反应，曾出现皮疹和呼吸困难。 海鲜会导致轻 度皮肤发痒，表明他对海鲜也有一定的过敏反应。 张三九的家族病史显示，父亲患有高血压 和二型糖尿病，母亲则有甲状腺疾病史。 三、生活方式和习惯 张三九的饮食习惯偏向高脂肪和高糖食品，日常饮食中蔬菜和水果的摄入较少，盐分摄入偏 高。 他的工作繁忙，运动较少，每周仅进行一次轻度运动，如散步。 张三九无吸烟史，但每 周饮酒 2 至 3 次，每次约 300 毫升啤酒。 他的平均睡眠时间为每晚 6 小时，常常感到疲惫。 四、体检与化验结果 张三九最近一次体检是在 2024 年 8 月 15 日，体检结果显示他的身高为 175 厘米，体重为 78 公斤，体重指数（BMI）为 25.5，表明体重超重。 他的腰围为 92 厘米，略高于健康范围。 血压测量结果为 135/85 毫米汞柱，属于轻度高血压范围。 心率为每分钟 78 次，处于正常 范围。 在实验室检查中，张三九的空腹血糖为 6.8 毫摩尔/升，略高于正常范围； 餐后 2 小时血糖 为 8.9 毫摩尔/升，也高于正常标准。
+
+健康档案 一、基本信息 张三九，男，出生于 1985 年 5 月 20 日，目前 39 岁，已婚，职业为 IT 工程师。 张三九的 血型为 O 型，联系电话为 138-1234-5678，电子邮箱为 zhangsan@example.com，居住在 上海市浦东新区张江路 123 号。 其紧急联系人为妻子李四六，联系电话为 138-8765-4321。 二、医疗历史 张三九在 2005 年被确诊为高血压，自此开始接受降压药物治疗。 2010 年，他被确诊为二 型糖尿病，并开始使用口服降糖药进行管理。 2017 年，张三九被诊断为脂肪肝，医生建议 通过饮食调整和增加运动来改善这一状况。 2022 年，他因腰椎间盘突出接受了微创手术， 术后恢复良好。 此外，张三九对青霉素有过敏反应，曾出现皮疹和呼吸困难。 海鲜会导致轻 度皮肤发痒，表明他对海鲜也有一定的过敏反应。 张三九的家族病史显示，父亲患有高血压 和二型糖尿病，母亲则有甲状腺疾病史。 三、生活方式和习惯 张三九的饮食习惯偏向高脂肪和高糖食品，日常饮食中蔬菜和水果的摄入较少，盐分摄入偏 高。 他的工作繁忙，运动较少，每周仅进行一次轻度运动，如散步。 张三九无吸烟史，但每 周饮酒 2 至 3 次，每次约 300 毫升啤酒。 他的平均睡眠时间为每晚 6 小时，常常感到疲惫。 四、体检与化验结果 张三九最近一次体检是在 2024 年 8 月 15 日，体检结果显示他的身高为 175 厘米，体重为 78 公斤，体重指数（BMI）为 25.5，表明体重超重。 他的腰围为 92 厘米，略高于健康范围。 血压测量结果为 135/85 毫米汞柱，属于轻度高血压范围。 心率为每分钟 78 次，处于正常 范围。 在实验室检查中，张三九的空腹血糖为 6.8 毫摩尔/升，略高于正常范围； 餐后 2 小时血糖 为 8.9 毫摩尔/升，也高于正常标准。
+
+健康档案 一、基本信息 张三九，男，出生于 1985 年 5 月 20 日，目前 39 岁，已婚，职业为 IT 工程师。 张三九的 血型为 O 型，联系电话为 138-1234-5678，电子邮箱为 zhangsan@example.com，居住在 上海市浦东新区张江路 123 号。 其紧急联系人为妻子李四六，联系电话为 138-8765-4321。 二、医疗历史 张三九在 2005 年被确诊为高血压，自此开始接受降压药物治疗。 2010 年，他被确诊为二 型糖尿病，并开始使用口服降糖药进行管理。 2017 年，张三九被诊断为脂肪肝，医生建议 通过饮食调整和增加运动来改善这一状况。 2022 年，他因腰椎间盘突出接受了微创手术， 术后恢复良好。 此外，张三九对青霉素有过敏反应，曾出现皮疹和呼吸困难。 海鲜会导致轻 度皮肤发痒，表明他对海鲜也有一定的过敏反应。 张三九的家族病史显示，父亲患有高血压 和二型糖尿病，母亲则有甲状腺疾病史。 三、生活方式和习惯 张三九的饮食习惯偏向高脂肪和高糖食品，日常饮食中蔬菜和水果的摄入较少，盐分摄入偏 高。 他的工作繁忙，运动较少，每周仅进行一次轻度运动，如散步。 张三九无吸烟史，但每 周饮酒 2 至 3 次，每次约 300 毫升啤酒。 他的平均睡眠时间为每晚 6 小时，常常感到疲惫。 四、体检与化验结果 张三九最近一次体检是在 2024 年 8 月 15 日，体检结果显示他的身高为 175 厘米，体重为 78 公斤，体重指数（BMI）为 25.5，表明体重超重。 他的腰围为 92 厘米，略高于健康范围。 血压测量结果为 135/85 毫米汞柱，属于轻度高血压范围。 心率为每分钟 78 次，处于正常 范围。 在实验室检查中，张三九的空腹血糖为 6.8 毫摩尔/升，略高于正常范围； 餐后 2 小时血糖 为 8.9 毫摩尔/升，也高于正常标准。
+2025-06-06 20:11:03,001 - ragAgent - INFO - Generating final response
+2025-06-06 20:11:03,003 - ragAgent - INFO - Loading and caching prompt template from prompts/prompt_template_generate.txt
+2025-06-06 20:11:41,769 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:12:03,441 - __main__ - INFO - Final Response is: 根据您提供的信息，张三九的健康档案如下：
+
+### 一、基本信息
+- **姓名**：张三九
+- **性别**：男
+- **出生日期**：1985年5月20日
+- **年龄**：39岁
+- **婚姻状况**：已婚
+- **职业**：IT工程师
+- **血型**：O型
+- **联系电话**：138-1234-5678
+- **电子邮箱**：zhangsan@example.com
+- **居住地址**：上海市浦东新区张江路123号
+- **紧急联系人**：妻子李四六
+- **紧急联系人电话**：138-8765-4321
+
+### 二、医疗历史
+- **高血压**：2005年确诊，接受降压药物治疗。
+- **二型糖尿病**：2010年确诊，使用口服降糖药管理。
+- **脂肪肝**：2017年诊断，建议通过饮食调整和增加运动改善。
+- **腰椎间盘突出**：2022年接受微创手术，术后恢复良好。
+- **过敏史**：
+  - 对青霉素过敏（曾出现皮疹和呼吸困难）。
+  - 对海鲜有轻度过敏反应（皮肤发痒）。
+- **家族病史**：
+  - 父亲患有高血压和二型糖尿病。
+  - 母亲有甲状腺疾病史。
+
+### 三、生活方式和习惯
+- **饮食习惯**：偏向高脂肪和高糖食品，蔬菜和水果摄入较少，盐分摄入偏高。
+- **运动情况**：工作繁忙，每周仅进行一次轻度运动，如散步。
+- **吸烟史**：无。
+- **饮酒情况**：每周饮酒2至3次，每次约300毫升啤酒。
+- **睡眠情况**：每晚平均睡眠时间为6小时，常常感到疲惫。
+
+### 四、体检与化验结果
+- **最近一次体检日期**：2024年8月15日
+- **身高**：175厘米
+- **体重**：78公斤
+- **体重指数（BMI）**：25.5（超重）
+- **腰围**：92厘米（略高于健康范围）
+- **血压**：135/85毫米汞柱（轻度高血压）
+- **心率**：每分钟78次（正常范围）
+- **空腹血糖**：6.8毫摩尔/升（略高于正常范围）
+- **餐后2小时血糖**：8.9毫摩尔/升（高于正常标准）
+
+以上是张三九的健康档案信息。如果您需要更详细的信息或有其他问题，请告诉我。
+2025-06-06 20:12:03,442 - __main__ - INFO - Results for Formatting: 根据您提供的信息，张三九的健康档案如下：
+
+### 一、基本信息
+- **姓名**：张三九
+- **性别**：男
+- **出生日期**：1985年5月20日
+- **年龄**：39岁
+- **婚姻状况**：已婚
+- **职业**：IT工程师
+- **血型**：O型
+- **联系电话**：138-1234-5678
+- **电子邮箱**：zhangsan@example.com
+- **居住地址**：上海市浦东新区张江路123号
+- **紧急联系人**：妻子李四六
+- **紧急联系人电话**：138-8765-4321
+
+### 二、医疗历史
+- **高血压**：2005年确诊，接受降压药物治疗。
+- **二型糖尿病**：2010年确诊，使用口服降糖药管理。
+- **脂肪肝**：2017年诊断，建议通过饮食调整和增加运动改善。
+- **腰椎间盘突出**：2022年接受微创手术，术后恢复良好。
+- **过敏史**：
+  - 对青霉素过敏（曾出现皮疹和呼吸困难）。
+  - 对海鲜有轻度过敏反应（皮肤发痒）。
+- **家族病史**：
+  - 父亲患有高血压和二型糖尿病。
+  - 母亲有甲状腺疾病史。
+
+### 三、生活方式和习惯
+- **饮食习惯**：偏向高脂肪和高糖食品，蔬菜和水果摄入较少，盐分摄入偏高。
+- **运动情况**：工作繁忙，每周仅进行一次轻度运动，如散步。
+- **吸烟史**：无。
+- **饮酒情况**：每周饮酒2至3次，每次约300毫升啤酒。
+- **睡眠情况**：每晚平均睡眠时间为6小时，常常感到疲惫。
+
+### 四、体检与化验结果
+- **最近一次体检日期**：2024年8月15日
+- **身高**：175厘米
+- **体重**：78公斤
+- **体重指数（BMI）**：25.5（超重）
+- **腰围**：92厘米（略高于健康范围）
+- **血压**：135/85毫米汞柱（轻度高血压）
+- **心率**：每分钟78次（正常范围）
+- **空腹血糖**：6.8毫摩尔/升（略高于正常范围）
+- **餐后2小时血糖**：8.9毫摩尔/升（高于正常标准）
+
+以上是张三九的健康档案信息。如果您需要更详细的信息或有其他问题，请告诉我。
+2025-06-06 20:12:03,444 - __main__ - INFO - Send response content: 
+id='chatcmpl-f9378e59c3544d4888211384cae7d28b' object='chat.completion' created=1749211923 choices=[ChatCompletionResponseChoice(index=0, message=Message(role='assistant', content='根据您提供的信息，张三九的健康档案如下：\n\n### 一、基本信息\n- **姓名**：张三九\n- **性别**：男\n- **出生日期**：1985年5月20日\n- **年龄**：39岁\n- **婚姻状况**：已婚\n- **职业**：IT工程师\n- **血型**：O型\n- **联系电话**：138-1234-5678\n- **电子邮箱**：zhangsan@example.com\n- **居住地址**：上海市浦东新区张江路123号\n- **紧急联系人**：妻子李四六\n- **紧急联系人电话**：138-8765-4321\n\n### 二、医疗历史\n- **高血压**：2005年确诊，接受降压药物治疗。\n- **二型糖尿病**：2010年确诊，使用口服降糖药管理。\n- **脂肪肝**：2017年诊断，建议通过饮食调整和增加运动改善。\n- **腰椎间盘突出**：2022年接受微创手术，术后恢复良好。\n- **过敏史**：\n  - 对青霉素过敏（曾出现皮疹和呼吸困难）。\n  - 对海鲜有轻度过敏反应（皮肤发痒）。\n- **家族病史**：\n  - 父亲患有高血压和二型糖尿病。\n  - 母亲有甲状腺疾病史。\n\n### 三、生活方式和习惯\n- **饮食习惯**：偏向高脂肪和高糖食品，蔬菜和水果摄入较少，盐分摄入偏高。\n- **运动情况**：工作繁忙，每周仅进行一次轻度运动，如散步。\n- **吸烟史**：无。\n- **饮酒情况**：每周饮酒2至3次，每次约300毫升啤酒。\n- **睡眠情况**：每晚平均睡眠时间为6小时，常常感到疲惫。\n\n### 四、体检与化验结果\n- **最近一次体检日期**：2024年8月15日\n- **身高**：175厘米\n- **体重**：78公斤\n- **体重指数（BMI）**：25.5（超重）\n- **腰围**：92厘米（略高于健康范围）\n- **血压**：135/85毫米汞柱（轻度高血压）\n- **心率**：每分钟78次（正常范围）\n- **空腹血糖**：6.8毫摩尔/升（略高于正常范围）\n- **餐后2小时血糖**：8.9毫摩尔/升（高于正常标准）\n\n以上是张三九的健康档案信息。如果您需要更详细的信息或有其他问题，请告诉我。'), finish_reason='stop')] system_fingerprint=None
+2025-06-06 20:12:41,770 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:13:41,771 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:14:41,772 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:15:41,774 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:16:41,775 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:17:41,776 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:18:41,778 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:19:41,779 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:20:41,780 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:20:48,916 - __main__ - INFO - The user's user_input is: 你好
+2025-06-06 20:20:48,927 - ragAgent - INFO - Agent processing user query
+2025-06-06 20:20:48,927 - ragAgent - INFO - agent question:content='你好' additional_kwargs={} response_metadata={} id='e4c65c74-b026-4b42-8231-e105d2f78e39'
+2025-06-06 20:20:49,153 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-06 20:20:49,669 - __main__ - INFO - Streaming chunk from agent: 你好
+2025-06-06 20:20:49,698 - __main__ - INFO - Streaming chunk from agent: ！
+2025-06-06 20:20:49,761 - __main__ - INFO - Streaming chunk from agent: 有什么
+2025-06-06 20:20:49,891 - __main__ - INFO - Streaming chunk from agent: 可以帮助你的吗？
+2025-06-06 20:20:49,976 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:21:41,781 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:21:41,960 - __main__ - INFO - The user's user_input is: 3乘以4等于多少
+2025-06-06 20:21:41,965 - ragAgent - INFO - Agent processing user query
+2025-06-06 20:21:41,966 - ragAgent - INFO - agent question:content='3乘以4等于多少' additional_kwargs={} response_metadata={} id='a1e75d2b-4b37-4436-8861-5f1737047a02'
+2025-06-06 20:21:42,190 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-06 20:21:43,186 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:21:43,204 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:21:43,683 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:21:43,734 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:21:43,736 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:21:43,739 - ragAgent - INFO - Tool multiply routed to generate based on config
+2025-06-06 20:21:43,741 - ragAgent - INFO - Generating final response
+2025-06-06 20:21:43,741 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_generate.txt
+2025-06-06 20:21:44,061 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-06 20:21:44,062 - __main__ - INFO - Streaming chunk from generate: 3
+2025-06-06 20:21:44,213 - __main__ - INFO - Streaming chunk from generate: 乘以4等于12
+2025-06-06 20:21:44,300 - __main__ - INFO - Streaming chunk from generate: 。
+2025-06-06 20:21:44,348 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-06 20:22:22,999 - __main__ - INFO - The user's user_input is: 张三九的健康档案信息
+2025-06-06 20:22:23,007 - ragAgent - INFO - Agent processing user query
+2025-06-06 20:22:23,007 - ragAgent - INFO - agent question:content='张三九的健康档案信息' additional_kwargs={} response_metadata={} id='bea79daa-9fd5-42e2-897b-edff67e11fe7'
+2025-06-06 20:22:23,228 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-06 20:22:24,131 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:22:24,226 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:22:24,422 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:22:24,424 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:22:24,563 - ragAgent - INFO - Tool retrieve routed to grade_documents based on config
+2025-06-06 20:22:24,565 - ragAgent - INFO - Grading documents for relevance
+2025-06-06 20:22:24,566 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_grade.txt
+2025-06-06 20:22:25,876 - ragAgent - INFO - Document relevance score: yes
+2025-06-06 20:22:25,878 - ragAgent - INFO - Routing based on relevance_score: yes, rewrite_count: 0
+2025-06-06 20:22:25,879 - ragAgent - INFO - Documents are relevant, proceeding to generate
+2025-06-06 20:22:25,881 - ragAgent - INFO - Generating final response
+2025-06-06 20:22:25,882 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_generate.txt
+2025-06-06 20:22:26,789 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-06 20:22:26,789 - __main__ - INFO - Streaming chunk from generate: 根据
+2025-06-06 20:22:26,887 - __main__ - INFO - Streaming chunk from generate: 您提供的信息，张三
+2025-06-06 20:22:27,035 - __main__ - INFO - Streaming chunk from generate: 九的健康档案如下：
+
+
+2025-06-06 20:22:27,362 - __main__ - INFO - Streaming chunk from generate: ### 一、基本信息
+2025-06-06 20:22:27,467 - __main__ - INFO - Streaming chunk from generate: 
+- **姓名**：
+2025-06-06 20:22:27,613 - __main__ - INFO - Streaming chunk from generate: 张三九
+- **
+2025-06-06 20:22:28,093 - __main__ - INFO - Streaming chunk from generate: 性别**：男
+-
+2025-06-06 20:22:28,206 - __main__ - INFO - Streaming chunk from generate:  **出生日期**：1
+2025-06-06 20:22:28,620 - __main__ - INFO - Streaming chunk from generate: 985年5月
+2025-06-06 20:22:29,212 - __main__ - INFO - Streaming chunk from generate: 20日
+- **
+2025-06-06 20:22:29,303 - __main__ - INFO - Streaming chunk from generate: 年龄**：39岁
+2025-06-06 20:22:29,698 - __main__ - INFO - Streaming chunk from generate: 
+- **婚姻状况**
+2025-06-06 20:22:29,783 - __main__ - INFO - Streaming chunk from generate: ：已婚
+- **
+2025-06-06 20:22:30,044 - __main__ - INFO - Streaming chunk from generate: 职业**：IT工程师
+
+2025-06-06 20:22:30,165 - __main__ - INFO - Streaming chunk from generate: - **血型**：
+2025-06-06 20:22:30,300 - __main__ - INFO - Streaming chunk from generate: O型
+- **联系电话
+2025-06-06 20:22:30,488 - __main__ - INFO - Streaming chunk from generate: **：138-
+2025-06-06 20:22:30,596 - __main__ - INFO - Streaming chunk from generate: 1234-5
+2025-06-06 20:22:31,196 - __main__ - INFO - Streaming chunk from generate: 678
+- **
+2025-06-06 20:22:31,305 - __main__ - INFO - Streaming chunk from generate: 电子邮箱**：zhang
+2025-06-06 20:22:31,906 - __main__ - INFO - Streaming chunk from generate: san@example.com
+- **
+2025-06-06 20:22:32,018 - __main__ - INFO - Streaming chunk from generate: 住址**：上海市
+2025-06-06 20:22:32,159 - __main__ - INFO - Streaming chunk from generate: 浦东新区张江路1
+2025-06-06 20:22:32,405 - __main__ - INFO - Streaming chunk from generate: 23号
+
+2025-06-06 20:22:32,450 - __main__ - INFO - Streaming chunk from generate: - **紧急联系人**
+2025-06-06 20:22:32,595 - __main__ - INFO - Streaming chunk from generate: ：妻子李四六
+2025-06-06 20:22:32,836 - __main__ - INFO - Streaming chunk from generate: 
+- **紧急
+2025-06-06 20:22:32,946 - __main__ - INFO - Streaming chunk from generate: 联系人电话**：1
+2025-06-06 20:22:33,204 - __main__ - INFO - Streaming chunk from generate: 38-876
+2025-06-06 20:22:33,302 - __main__ - INFO - Streaming chunk from generate: 5-4321
+2025-06-06 20:22:33,686 - __main__ - INFO - Streaming chunk from generate: 
+
+### 二、医疗
+2025-06-06 20:22:33,802 - __main__ - INFO - Streaming chunk from generate: 历史
+- **高血压**
+2025-06-06 20:22:34,021 - __main__ - INFO - Streaming chunk from generate: ：2005年
+2025-06-06 20:22:34,103 - __main__ - INFO - Streaming chunk from generate: 确诊，接受降压药物
+2025-06-06 20:22:34,243 - __main__ - INFO - Streaming chunk from generate: 治疗。
+- **二
+2025-06-06 20:22:34,425 - __main__ - INFO - Streaming chunk from generate: 型糖尿病**：20
+2025-06-06 20:22:34,533 - __main__ - INFO - Streaming chunk from generate: 10年确诊，使用
+2025-06-06 20:22:34,690 - __main__ - INFO - Streaming chunk from generate: 口服降糖药管理。
+
+2025-06-06 20:22:34,949 - __main__ - INFO - Streaming chunk from generate: - **脂肪肝**：
+2025-06-06 20:22:34,979 - __main__ - INFO - Streaming chunk from generate: 2017年诊断
+2025-06-06 20:22:35,312 - __main__ - INFO - Streaming chunk from generate: ，建议通过饮食调整
+2025-06-06 20:22:35,550 - __main__ - INFO - Streaming chunk from generate: 和增加运动改善。
+-
+2025-06-06 20:22:35,739 - __main__ - INFO - Streaming chunk from generate:  **腰椎间盘突出
+2025-06-06 20:22:35,847 - __main__ - INFO - Streaming chunk from generate: **：2022
+2025-06-06 20:22:35,995 - __main__ - INFO - Streaming chunk from generate: 年接受微创手术，
+2025-06-06 20:22:36,169 - __main__ - INFO - Streaming chunk from generate: 术后恢复良好。
+- **
+2025-06-06 20:22:36,350 - __main__ - INFO - Streaming chunk from generate: 过敏史**：
+
+2025-06-06 20:22:36,519 - __main__ - INFO - Streaming chunk from generate:   - 青霉素
+2025-06-06 20:22:36,722 - __main__ - INFO - Streaming chunk from generate: ：曾出现皮疹
+2025-06-06 20:22:37,311 - __main__ - INFO - Streaming chunk from generate: 和呼吸困难。
+  -
+2025-06-06 20:22:37,722 - __main__ - INFO - Streaming chunk from generate:  海鲜：轻度
+2025-06-06 20:22:37,811 - __main__ - INFO - Streaming chunk from generate: 皮肤发痒。
+
+
+2025-06-06 20:22:37,952 - __main__ - INFO - Streaming chunk from generate: - **家族病
+2025-06-06 20:22:38,143 - __main__ - INFO - Streaming chunk from generate: 史**：
+  -
+2025-06-06 20:22:38,231 - __main__ - INFO - Streaming chunk from generate:  父亲：高血压、
+2025-06-06 20:22:38,383 - __main__ - INFO - Streaming chunk from generate: 二型糖尿病
+  -
+2025-06-06 20:22:38,548 - __main__ - INFO - Streaming chunk from generate:  母亲：甲状腺
+2025-06-06 20:22:38,659 - __main__ - INFO - Streaming chunk from generate: 疾病
+
+### 三
+2025-06-06 20:22:38,798 - __main__ - INFO - Streaming chunk from generate: 、生活方式和习惯
+-
+2025-06-06 20:22:39,102 - __main__ - INFO - Streaming chunk from generate:  **饮食习惯**：偏好
+2025-06-06 20:22:39,530 - __main__ - INFO - Streaming chunk from generate: 高脂肪和高糖食品
+2025-06-06 20:22:39,990 - __main__ - INFO - Streaming chunk from generate: ，蔬菜水果摄入少
+2025-06-06 20:22:40,106 - __main__ - INFO - Streaming chunk from generate: ，盐分摄入偏高
+2025-06-06 20:22:40,246 - __main__ - INFO - Streaming chunk from generate: 。
+- **运动情况
+2025-06-06 20:22:40,412 - __main__ - INFO - Streaming chunk from generate: **：工作繁忙，每周
+2025-06-06 20:22:40,622 - __main__ - INFO - Streaming chunk from generate: 仅进行一次轻度
+2025-06-06 20:22:40,846 - __main__ - INFO - Streaming chunk from generate: 运动（如散步）
+2025-06-06 20:22:41,698 - __main__ - INFO - Streaming chunk from generate: 。
+- **吸烟
+2025-06-06 20:22:41,783 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:22:41,804 - __main__ - INFO - Streaming chunk from generate: 史**：无
+2025-06-06 20:22:41,942 - __main__ - INFO - Streaming chunk from generate: 
+- **饮酒情况**
+2025-06-06 20:22:42,125 - __main__ - INFO - Streaming chunk from generate: ：每周2至3次
+2025-06-06 20:22:42,807 - __main__ - INFO - Streaming chunk from generate: ，每次约300
+2025-06-06 20:22:42,910 - __main__ - INFO - Streaming chunk from generate: 毫升啤酒。
+- **睡眠
+2025-06-06 20:22:43,048 - __main__ - INFO - Streaming chunk from generate: 情况**：每
+2025-06-06 20:22:43,282 - __main__ - INFO - Streaming chunk from generate: 晚平均6小时，常
+2025-06-06 20:22:43,736 - __main__ - INFO - Streaming chunk from generate: 感到疲惫。
+
+### 四
+2025-06-06 20:22:43,837 - __main__ - INFO - Streaming chunk from generate: 、体检与化验结果
+2025-06-06 20:22:44,275 - __main__ - INFO - Streaming chunk from generate: 
+- **最近
+2025-06-06 20:22:44,361 - __main__ - INFO - Streaming chunk from generate: 体检时间**：
+2025-06-06 20:22:44,485 - __main__ - INFO - Streaming chunk from generate: 2024年8
+2025-06-06 20:22:44,658 - __main__ - INFO - Streaming chunk from generate: 月15日
+-
+2025-06-06 20:22:44,771 - __main__ - INFO - Streaming chunk from generate:  **身高**：17
+2025-06-06 20:22:44,903 - __main__ - INFO - Streaming chunk from generate: 5厘米
+- **体重
+2025-06-06 20:22:46,083 - __main__ - INFO - Streaming chunk from generate: **：78公斤
+
+2025-06-06 20:22:46,187 - __main__ - INFO - Streaming chunk from generate: - **BMI**：2
+2025-06-06 20:22:46,339 - __main__ - INFO - Streaming chunk from generate: 5.5（超
+2025-06-06 20:22:46,934 - __main__ - INFO - Streaming chunk from generate: 重）
+- **腰围
+2025-06-06 20:22:48,123 - __main__ - INFO - Streaming chunk from generate: **：92厘米（
+2025-06-06 20:22:48,138 - __main__ - INFO - Streaming chunk from generate: 略高于健康范围）
+-
+2025-06-06 20:22:48,271 - __main__ - INFO - Streaming chunk from generate:  **血压**：13
+2025-06-06 20:22:48,448 - __main__ - INFO - Streaming chunk from generate: 5/85毫米汞
+2025-06-06 20:22:48,567 - __main__ - INFO - Streaming chunk from generate: 柱（轻度高血压）
+
+2025-06-06 20:22:48,708 - __main__ - INFO - Streaming chunk from generate: - **心率**：
+2025-06-06 20:22:48,922 - __main__ - INFO - Streaming chunk from generate: 每分钟78
+2025-06-06 20:22:49,049 - __main__ - INFO - Streaming chunk from generate: 次（正常范围）
+-
+2025-06-06 20:22:49,145 - __main__ - INFO - Streaming chunk from generate:  **空腹血糖**：
+2025-06-06 20:22:49,331 - __main__ - INFO - Streaming chunk from generate: 6.8毫摩尔
+2025-06-06 20:22:49,431 - __main__ - INFO - Streaming chunk from generate: /升（略高于正常
+2025-06-06 20:22:49,999 - __main__ - INFO - Streaming chunk from generate: 范围）
+- **餐后
+2025-06-06 20:22:50,021 - __main__ - INFO - Streaming chunk from generate: 2小时血糖**：8
+2025-06-06 20:22:50,148 - __main__ - INFO - Streaming chunk from generate: .9毫摩尔/
+2025-06-06 20:22:50,311 - __main__ - INFO - Streaming chunk from generate: 升（高于正常标准）
+
+
+2025-06-06 20:22:50,547 - __main__ - INFO - Streaming chunk from generate: 以上是张三九
+2025-06-06 20:22:50,829 - __main__ - INFO - Streaming chunk from generate: 的健康档案信息。如果
+2025-06-06 20:22:50,931 - __main__ - INFO - Streaming chunk from generate: 需要更详细的信息或其他
+2025-06-06 20:22:51,499 - __main__ - INFO - Streaming chunk from generate: 方面的帮助，请告诉我
+2025-06-06 20:22:51,542 - __main__ - INFO - Streaming chunk from generate: 。
+2025-06-06 20:22:51,585 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-06 20:23:41,784 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:23:47,061 - __main__ - INFO - The user's user_input is: Kevin的健康档案信息
+2025-06-06 20:23:47,068 - ragAgent - INFO - Agent processing user query
+2025-06-06 20:23:47,069 - ragAgent - INFO - agent question:content='Kevin的健康档案信息' additional_kwargs={} response_metadata={} id='fbe0e2df-460c-4329-b7a0-2067bd55cf18'
+2025-06-06 20:23:47,293 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-06 20:23:48,326 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:23:50,427 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:23:50,614 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:23:50,616 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:23:50,773 - ragAgent - INFO - Tool retrieve routed to grade_documents based on config
+2025-06-06 20:23:50,774 - ragAgent - INFO - Grading documents for relevance
+2025-06-06 20:23:50,775 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_grade.txt
+2025-06-06 20:23:52,445 - ragAgent - INFO - Document relevance score: no
+2025-06-06 20:23:52,446 - ragAgent - INFO - Routing based on relevance_score: no, rewrite_count: 0
+2025-06-06 20:23:52,447 - ragAgent - INFO - Documents are not relevant or scoring failed, proceeding to rewrite
+2025-06-06 20:23:52,449 - ragAgent - INFO - Rewriting query
+2025-06-06 20:23:52,450 - ragAgent - INFO - Loading and caching prompt template from prompts/prompt_template_rewrite.txt
+2025-06-06 20:23:53,328 - ragAgent - INFO - Rewrite count: 1
+2025-06-06 20:23:53,330 - ragAgent - INFO - Agent processing user query
+2025-06-06 20:23:53,331 - ragAgent - INFO - agent question:content='Kevin的健康档案中具体包含了哪些信息？' additional_kwargs={} response_metadata={'finish_reason': 'stop', 'model_name': 'qwen-max'} id='run--a099b2ec-2c3e-46ae-bfb4-873c71cdff3b'
+2025-06-06 20:23:53,484 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-06 20:23:54,331 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:23:54,423 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:23:54,582 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:23:54,758 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:23:54,760 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:23:54,904 - ragAgent - INFO - Tool retrieve routed to grade_documents based on config
+2025-06-06 20:23:54,907 - ragAgent - INFO - Grading documents for relevance
+2025-06-06 20:23:54,908 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_grade.txt
+2025-06-06 20:23:56,141 - ragAgent - INFO - Document relevance score: no
+2025-06-06 20:23:56,143 - ragAgent - INFO - Routing based on relevance_score: no, rewrite_count: 1
+2025-06-06 20:23:56,143 - ragAgent - INFO - Documents are not relevant or scoring failed, proceeding to rewrite
+2025-06-06 20:23:56,146 - ragAgent - INFO - Rewriting query
+2025-06-06 20:23:56,146 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_rewrite.txt
+2025-06-06 20:23:56,741 - ragAgent - INFO - Rewrite count: 2
+2025-06-06 20:23:56,743 - ragAgent - INFO - Agent processing user query
+2025-06-06 20:23:56,744 - ragAgent - INFO - agent question:content='Kevin的健康档案中包含哪些具体信息？' additional_kwargs={} response_metadata={'finish_reason': 'stop', 'model_name': 'qwen-max'} id='run--a632c9bd-bd84-47ea-ba6b-d0aab48ce825'
+2025-06-06 20:23:56,900 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-06 20:23:57,823 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:23:58,177 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:23:58,364 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:23:58,431 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:23:58,433 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:23:58,575 - ragAgent - INFO - Tool retrieve routed to grade_documents based on config
+2025-06-06 20:23:58,577 - ragAgent - INFO - Grading documents for relevance
+2025-06-06 20:23:58,577 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_grade.txt
+2025-06-06 20:23:59,987 - ragAgent - INFO - Document relevance score: no
+2025-06-06 20:23:59,989 - ragAgent - INFO - Routing based on relevance_score: no, rewrite_count: 2
+2025-06-06 20:23:59,990 - ragAgent - INFO - Documents are not relevant or scoring failed, proceeding to rewrite
+2025-06-06 20:23:59,992 - ragAgent - INFO - Rewriting query
+2025-06-06 20:23:59,993 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_rewrite.txt
+2025-06-06 20:24:00,784 - ragAgent - INFO - Rewrite count: 3
+2025-06-06 20:24:00,786 - ragAgent - INFO - Agent processing user query
+2025-06-06 20:24:00,787 - ragAgent - INFO - agent question:content='Kevin的健康档案中具体包含哪些信息？' additional_kwargs={} response_metadata={'finish_reason': 'stop', 'model_name': 'qwen-max'} id='run--74d15261-71ba-461a-9f19-11d71ecca279'
+2025-06-06 20:24:00,943 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-06 20:24:01,796 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:24:01,890 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:24:03,767 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:24:03,833 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:24:03,835 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-06 20:24:03,985 - ragAgent - INFO - Tool retrieve routed to grade_documents based on config
+2025-06-06 20:24:03,987 - ragAgent - INFO - Grading documents for relevance
+2025-06-06 20:24:03,987 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_grade.txt
+2025-06-06 20:24:04,651 - ragAgent - INFO - Document relevance score: no
+2025-06-06 20:24:04,653 - ragAgent - INFO - Routing based on relevance_score: no, rewrite_count: 3
+2025-06-06 20:24:04,654 - ragAgent - INFO - Max rewrite limit reached, proceeding to generate
+2025-06-06 20:24:04,656 - ragAgent - INFO - Generating final response
+2025-06-06 20:24:04,657 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_generate.txt
+2025-06-06 20:24:05,641 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-06 20:24:05,642 - __main__ - INFO - Streaming chunk from generate: 您好
+2025-06-06 20:24:05,679 - __main__ - INFO - Streaming chunk from generate: ！
+2025-06-06 20:24:05,745 - __main__ - INFO - Streaming chunk from generate: 根据
+2025-06-06 20:24:05,878 - __main__ - INFO - Streaming chunk from generate: 您提供的信息，这里
+2025-06-06 20:24:06,155 - __main__ - INFO - Streaming chunk from generate: 记录的是王五的
+2025-06-06 20:24:07,205 - __main__ - INFO - Streaming chunk from generate: 健康档案，并没有提到
+2025-06-06 20:24:07,314 - __main__ - INFO - Streaming chunk from generate: Kevin的相关信息。如果您
+2025-06-06 20:24:07,781 - __main__ - INFO - Streaming chunk from generate: 需要了解Kevin的
+2025-06-06 20:24:07,898 - __main__ - INFO - Streaming chunk from generate: 健康档案，请提供更多的
+2025-06-06 20:24:08,482 - __main__ - INFO - Streaming chunk from generate: 相关信息或具体问题，
+2025-06-06 20:24:08,588 - __main__ - INFO - Streaming chunk from generate: 这样我才能更好地
+2025-06-06 20:24:08,730 - __main__ - INFO - Streaming chunk from generate: 帮助到您。如果
+2025-06-06 20:24:08,968 - __main__ - INFO - Streaming chunk from generate: 您的问题是关于如何
+2025-06-06 20:24:09,675 - __main__ - INFO - Streaming chunk from generate: 管理健康（比如
+2025-06-06 20:24:10,010 - __main__ - INFO - Streaming chunk from generate: 保持正常体重、
+2025-06-06 20:24:10,114 - __main__ - INFO - Streaming chunk from generate: 管理血脂水平、预防糖尿病
+2025-06-06 20:24:10,259 - __main__ - INFO - Streaming chunk from generate: 等），我可以基于
+2025-06-06 20:24:10,514 - __main__ - INFO - Streaming chunk from generate: 已有的信息给出
+2025-06-06 20:24:10,616 - __main__ - INFO - Streaming chunk from generate: 一些建议
+2025-06-06 20:24:10,752 - __main__ - INFO - Streaming chunk from generate: 。请告诉我更多
+2025-06-06 20:24:10,922 - __main__ - INFO - Streaming chunk from generate: 细节，谢谢！
+2025-06-06 20:24:10,972 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-06 20:24:41,785 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:25:41,787 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:26:41,789 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:27:41,791 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:28:41,792 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:29:41,794 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:30:41,796 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:31:41,797 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:32:41,798 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:33:41,799 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:34:41,801 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:35:41,803 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:36:41,804 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-06 20:37:33,237 - __main__ - INFO - Database connection pool closed
+2025-06-06 20:37:33,238 - __main__ - INFO - The service has been shut down
+2025-06-11 19:27:00,217 - __main__ - INFO - Start the server on port 8012
+2025-06-11 19:27:03,189 - ragAgent - DEBUG - Tool 'retrieve' routed to 'grade_documents' (retrieval tool)
+2025-06-11 19:27:03,190 - ragAgent - DEBUG - Tool 'multiply' routed to 'generate' (non-retrieval tool)
+2025-06-11 19:27:03,190 - ragAgent - INFO - Initialized ToolConfig with tools: {'retrieve', 'multiply'}, routing: {'retrieve': 'grade_documents', 'multiply': 'generate'}
+2025-06-11 19:27:03,192 - __main__ - INFO - Database connection pool initialized
+2025-06-11 19:27:03,194 - __main__ - DEBUG - Database connection pool initialized
+2025-06-11 19:27:03,195 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-11 19:27:13,200 - ragAgent - ERROR - Failed to verify connection db_connection_pool status: couldn't get a connection after 10.00 sec
+2025-06-11 19:27:13,212 - __main__ - ERROR - Graph creation failed: 无法验证连接池状态: couldn't get a connection after 10.00 sec
+2025-06-11 22:09:53,974 - __main__ - INFO - Start the server on port 8012
+2025-06-11 22:09:56,713 - ragAgent - DEBUG - Tool 'retrieve' routed to 'grade_documents' (retrieval tool)
+2025-06-11 22:09:56,714 - ragAgent - DEBUG - Tool 'multiply' routed to 'generate' (non-retrieval tool)
+2025-06-11 22:09:56,714 - ragAgent - INFO - Initialized ToolConfig with tools: {'multiply', 'retrieve'}, routing: {'retrieve': 'grade_documents', 'multiply': 'generate'}
+2025-06-11 22:09:56,716 - __main__ - INFO - Database connection pool initialized
+2025-06-11 22:09:56,718 - __main__ - DEBUG - Database connection pool initialized
+2025-06-11 22:09:56,719 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-11 22:09:56,743 - ragAgent - INFO - Connection db_connection_pool status: OK, test connection successful
+2025-06-11 22:09:56,908 - ragAgent - INFO - Graph visualization saved as graph.png
+2025-06-11 22:10:47,527 - __main__ - INFO - The user's user_input is: 你好
+2025-06-11 22:10:47,564 - ragAgent - INFO - Agent processing user query
+2025-06-11 22:10:47,564 - ragAgent - INFO - agent question:content='你好' additional_kwargs={} response_metadata={} id='69d1852d-e849-4449-99cd-636405ad0626'
+2025-06-11 22:10:47,894 - ragAgent - INFO - Loading and caching prompt template from prompts/prompt_template_agent.txt
+2025-06-11 22:10:48,438 - __main__ - INFO - Streaming chunk from agent: 你好
+2025-06-11 22:10:48,465 - __main__ - INFO - Streaming chunk from agent: ！
+2025-06-11 22:10:48,708 - __main__ - INFO - Streaming chunk from agent: 有什么
+2025-06-11 22:10:48,967 - __main__ - INFO - Streaming chunk from agent: 可以帮助你的吗？
+2025-06-11 22:10:49,193 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-11 22:10:56,720 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-11 22:11:41,896 - __main__ - INFO - The user's user_input is: 张三九的健康档案信息
+2025-06-11 22:11:41,908 - ragAgent - INFO - Agent processing user query
+2025-06-11 22:11:41,909 - ragAgent - INFO - agent question:content='张三九的健康档案信息' additional_kwargs={} response_metadata={} id='9136beb3-b310-4438-abcb-911014c91596'
+2025-06-11 22:11:42,109 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-11 22:11:43,155 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-11 22:11:43,390 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-11 22:11:43,725 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-11 22:11:43,727 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-11 22:11:43,914 - ragAgent - INFO - Tool retrieve routed to grade_documents based on config
+2025-06-11 22:11:43,916 - ragAgent - INFO - Grading documents for relevance
+2025-06-11 22:11:43,917 - ragAgent - INFO - Loading and caching prompt template from prompts/prompt_template_grade.txt
+2025-06-11 22:11:45,534 - ragAgent - INFO - Document relevance score: yes
+2025-06-11 22:11:45,535 - ragAgent - INFO - Routing based on relevance_score: yes, rewrite_count: 0
+2025-06-11 22:11:45,536 - ragAgent - INFO - Documents are relevant, proceeding to generate
+2025-06-11 22:11:45,538 - ragAgent - INFO - Generating final response
+2025-06-11 22:11:45,539 - ragAgent - INFO - Loading and caching prompt template from prompts/prompt_template_generate.txt
+2025-06-11 22:11:46,465 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-11 22:11:46,467 - __main__ - INFO - Streaming chunk from generate: 根据
+2025-06-11 22:11:46,550 - __main__ - INFO - Streaming chunk from generate: 您提供的信息，张三
+2025-06-11 22:11:46,990 - __main__ - INFO - Streaming chunk from generate: 九的健康档案如下：
+
+
+2025-06-11 22:11:47,149 - __main__ - INFO - Streaming chunk from generate: ### 一、基本信息
+2025-06-11 22:11:47,338 - __main__ - INFO - Streaming chunk from generate: 
+- **姓名**：
+2025-06-11 22:11:47,429 - __main__ - INFO - Streaming chunk from generate: 张三九
+- **
+2025-06-11 22:11:47,584 - __main__ - INFO - Streaming chunk from generate: 性别**：男
+-
+2025-06-11 22:11:47,700 - __main__ - INFO - Streaming chunk from generate:  **出生日期**：1
+2025-06-11 22:11:47,894 - __main__ - INFO - Streaming chunk from generate: 985年5月
+2025-06-11 22:11:47,972 - __main__ - INFO - Streaming chunk from generate: 20日
+- **
+2025-06-11 22:11:48,117 - __main__ - INFO - Streaming chunk from generate: 年龄**：39岁
+2025-06-11 22:11:48,777 - __main__ - INFO - Streaming chunk from generate: 
+- **婚姻状况**
+2025-06-11 22:11:49,039 - __main__ - INFO - Streaming chunk from generate: ：已婚
+- **
+2025-06-11 22:11:49,246 - __main__ - INFO - Streaming chunk from generate: 职业**：IT工程师
+
+2025-06-11 22:11:49,584 - __main__ - INFO - Streaming chunk from generate: - **血型**：
+2025-06-11 22:11:49,830 - __main__ - INFO - Streaming chunk from generate: O型
+- **联系电话
+2025-06-11 22:11:50,003 - __main__ - INFO - Streaming chunk from generate: **：138-
+2025-06-11 22:11:50,601 - __main__ - INFO - Streaming chunk from generate: 1234-5
+2025-06-11 22:11:50,750 - __main__ - INFO - Streaming chunk from generate: 678
+- **
+2025-06-11 22:11:50,927 - __main__ - INFO - Streaming chunk from generate: 电子邮箱**：zhang
+2025-06-11 22:11:51,129 - __main__ - INFO - Streaming chunk from generate: san@example.com
+- **
+2025-06-11 22:11:51,252 - __main__ - INFO - Streaming chunk from generate: 居住地址**：上海市浦东
+2025-06-11 22:11:51,539 - __main__ - INFO - Streaming chunk from generate: 新区张江路12
+2025-06-11 22:11:51,628 - __main__ - INFO - Streaming chunk from generate: 3号
+- **紧急
+2025-06-11 22:11:51,778 - __main__ - INFO - Streaming chunk from generate: 联系人**：妻子
+2025-06-11 22:11:52,573 - __main__ - INFO - Streaming chunk from generate: 李四六
+
+2025-06-11 22:11:53,063 - __main__ - INFO - Streaming chunk from generate: - **紧急联系人电话
+2025-06-11 22:11:53,165 - __main__ - INFO - Streaming chunk from generate: **：138-
+2025-06-11 22:11:53,460 - __main__ - INFO - Streaming chunk from generate: 8765-4
+2025-06-11 22:11:53,660 - __main__ - INFO - Streaming chunk from generate: 321
+
+### 
+2025-06-11 22:11:53,758 - __main__ - INFO - Streaming chunk from generate: 二、医疗历史
+-
+2025-06-11 22:11:53,964 - __main__ - INFO - Streaming chunk from generate:  **高血压**：20
+2025-06-11 22:11:54,056 - __main__ - INFO - Streaming chunk from generate: 05年确诊，接受
+2025-06-11 22:11:54,220 - __main__ - INFO - Streaming chunk from generate: 降压药物治疗。
+
+2025-06-11 22:11:54,350 - __main__ - INFO - Streaming chunk from generate: - **二型糖尿病**
+2025-06-11 22:11:54,580 - __main__ - INFO - Streaming chunk from generate: ：2010年
+2025-06-11 22:11:54,646 - __main__ - INFO - Streaming chunk from generate: 确诊，使用口服降糖
+2025-06-11 22:11:54,795 - __main__ - INFO - Streaming chunk from generate: 药管理。
+- **脂肪
+2025-06-11 22:11:55,084 - __main__ - INFO - Streaming chunk from generate: 肝**：201
+2025-06-11 22:11:55,217 - __main__ - INFO - Streaming chunk from generate: 7年诊断，建议
+2025-06-11 22:11:55,593 - __main__ - INFO - Streaming chunk from generate: 通过饮食调整和增加运动
+2025-06-11 22:11:55,672 - __main__ - INFO - Streaming chunk from generate: 来改善。
+-
+2025-06-11 22:11:55,832 - __main__ - INFO - Streaming chunk from generate:  **腰椎间盘突出
+2025-06-11 22:11:56,108 - __main__ - INFO - Streaming chunk from generate: **：2022
+2025-06-11 22:11:56,289 - __main__ - INFO - Streaming chunk from generate: 年接受微创手术，
+2025-06-11 22:11:56,367 - __main__ - INFO - Streaming chunk from generate: 术后恢复良好。
+- **
+2025-06-11 22:11:56,722 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-11 22:11:56,783 - __main__ - INFO - Streaming chunk from generate: 过敏史**：
+
+2025-06-11 22:11:57,024 - __main__ - INFO - Streaming chunk from generate:   - 对青霉素过敏
+2025-06-11 22:11:57,445 - __main__ - INFO - Streaming chunk from generate: （曾出现皮疹
+2025-06-11 22:11:57,598 - __main__ - INFO - Streaming chunk from generate: 和呼吸困难）。
+ 
+2025-06-11 22:11:57,943 - __main__ - INFO - Streaming chunk from generate:  - 对海鲜轻
+2025-06-11 22:11:58,024 - __main__ - INFO - Streaming chunk from generate: 度过敏（皮肤
+2025-06-11 22:11:58,498 - __main__ - INFO - Streaming chunk from generate: 发痒）。
+
+2025-06-11 22:11:58,717 - __main__ - INFO - Streaming chunk from generate: - **家族病史**
+2025-06-11 22:11:59,014 - __main__ - INFO - Streaming chunk from generate: ：
+  - 父
+2025-06-11 22:11:59,221 - __main__ - INFO - Streaming chunk from generate: 亲患有高血压和二型
+2025-06-11 22:11:59,326 - __main__ - INFO - Streaming chunk from generate: 糖尿病。
+  -
+2025-06-11 22:11:59,544 - __main__ - INFO - Streaming chunk from generate:  母亲有甲状腺疾病史
+2025-06-11 22:11:59,643 - __main__ - INFO - Streaming chunk from generate: 。
+
+### 三、生活方式
+2025-06-11 22:11:59,875 - __main__ - INFO - Streaming chunk from generate: 和习惯
+- **饮食
+2025-06-11 22:11:59,961 - __main__ - INFO - Streaming chunk from generate: 习惯**：偏向高脂肪
+2025-06-11 22:12:00,171 - __main__ - INFO - Streaming chunk from generate: 和高糖食品，蔬菜
+2025-06-11 22:12:00,265 - __main__ - INFO - Streaming chunk from generate: 和水果摄入较少，盐
+2025-06-11 22:12:00,471 - __main__ - INFO - Streaming chunk from generate: 分摄入偏高。
+-
+2025-06-11 22:12:00,581 - __main__ - INFO - Streaming chunk from generate:  **运动情况**：工作
+2025-06-11 22:12:00,928 - __main__ - INFO - Streaming chunk from generate: 繁忙，每周仅进行
+2025-06-11 22:12:01,119 - __main__ - INFO - Streaming chunk from generate: 一次轻度运动，
+2025-06-11 22:12:01,555 - __main__ - INFO - Streaming chunk from generate: 如散步。
+- **吸烟
+2025-06-11 22:12:01,595 - __main__ - INFO - Streaming chunk from generate: 情况**：无吸烟史
+2025-06-11 22:12:01,806 - __main__ - INFO - Streaming chunk from generate: 。
+- **饮酒
+2025-06-11 22:12:01,942 - __main__ - INFO - Streaming chunk from generate: 情况**：每周饮酒2
+2025-06-11 22:12:02,140 - __main__ - INFO - Streaming chunk from generate: 至3次，每次约
+2025-06-11 22:12:02,419 - __main__ - INFO - Streaming chunk from generate: 300毫升啤酒。
+
+2025-06-11 22:12:02,743 - __main__ - INFO - Streaming chunk from generate: - **睡眠情况**：
+2025-06-11 22:12:02,832 - __main__ - INFO - Streaming chunk from generate: 平均每晚睡眠时间为
+2025-06-11 22:12:03,294 - __main__ - INFO - Streaming chunk from generate: 6小时，常常感到疲惫
+2025-06-11 22:12:03,389 - __main__ - INFO - Streaming chunk from generate: 。
+
+### 四、体检
+2025-06-11 22:12:03,758 - __main__ - INFO - Streaming chunk from generate: 与化验结果
+-
+2025-06-11 22:12:03,852 - __main__ - INFO - Streaming chunk from generate:  **最近一次体检时间
+2025-06-11 22:12:04,242 - __main__ - INFO - Streaming chunk from generate: **：2024
+2025-06-11 22:12:04,325 - __main__ - INFO - Streaming chunk from generate: 年8月15日
+2025-06-11 22:12:04,617 - __main__ - INFO - Streaming chunk from generate: 
+- **身高**：
+2025-06-11 22:12:04,721 - __main__ - INFO - Streaming chunk from generate: 175厘米
+-
+2025-06-11 22:12:05,104 - __main__ - INFO - Streaming chunk from generate:  **体重**：78
+2025-06-11 22:12:05,209 - __main__ - INFO - Streaming chunk from generate: 公斤
+- **BMI
+2025-06-11 22:12:05,410 - __main__ - INFO - Streaming chunk from generate: **：25.5
+2025-06-11 22:12:05,600 - __main__ - INFO - Streaming chunk from generate: （超重）
+- **
+2025-06-11 22:12:05,813 - __main__ - INFO - Streaming chunk from generate: 腰围**：92
+2025-06-11 22:12:05,912 - __main__ - INFO - Streaming chunk from generate: 厘米（略高于健康范围
+2025-06-11 22:12:06,112 - __main__ - INFO - Streaming chunk from generate: ）
+- **血压**：
+2025-06-11 22:12:06,211 - __main__ - INFO - Streaming chunk from generate: 135/85
+2025-06-11 22:12:06,364 - __main__ - INFO - Streaming chunk from generate: 毫米汞柱（轻度
+2025-06-11 22:12:06,843 - __main__ - INFO - Streaming chunk from generate: 高血压）
+- **心率
+2025-06-11 22:12:07,126 - __main__ - INFO - Streaming chunk from generate: **：每分钟7
+2025-06-11 22:12:07,600 - __main__ - INFO - Streaming chunk from generate: 8次（正常范围）
+
+2025-06-11 22:12:07,840 - __main__ - INFO - Streaming chunk from generate: - **空腹血糖**
+2025-06-11 22:12:08,047 - __main__ - INFO - Streaming chunk from generate: ：6.8毫摩
+2025-06-11 22:12:08,393 - __main__ - INFO - Streaming chunk from generate: 尔/升（略高于
+2025-06-11 22:12:08,832 - __main__ - INFO - Streaming chunk from generate: 正常范围）
+- **餐
+2025-06-11 22:12:08,942 - __main__ - INFO - Streaming chunk from generate: 后2小时血糖**：
+2025-06-11 22:12:09,146 - __main__ - INFO - Streaming chunk from generate: 8.9毫摩尔
+2025-06-11 22:12:09,541 - __main__ - INFO - Streaming chunk from generate: /升（高于正常标准
+2025-06-11 22:12:09,983 - __main__ - INFO - Streaming chunk from generate: ）
+
+以上是张三九
+2025-06-11 22:12:10,257 - __main__ - INFO - Streaming chunk from generate: 的健康档案概
+2025-06-11 22:12:10,410 - __main__ - INFO - Streaming chunk from generate: 要。如果需要更
+2025-06-11 22:12:10,774 - __main__ - INFO - Streaming chunk from generate: 详细的信息或进一步的帮助
+2025-06-11 22:12:10,886 - __main__ - INFO - Streaming chunk from generate: ，请告诉我。
+2025-06-11 22:12:10,951 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-11 22:12:56,724 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-11 22:13:56,725 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-11 22:14:47,978 - __main__ - INFO - The user's user_input is: 3*9
+2025-06-11 22:14:47,987 - ragAgent - INFO - Agent processing user query
+2025-06-11 22:14:47,987 - ragAgent - INFO - agent question:content='3*9' additional_kwargs={} response_metadata={} id='c24176ab-f07b-44e1-8c47-1c6f70fd2e21'
+2025-06-11 22:14:48,327 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-11 22:14:49,587 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-11 22:14:49,646 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-11 22:14:49,713 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-11 22:14:49,833 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-11 22:14:49,835 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-11 22:14:49,838 - ragAgent - INFO - Tool multiply routed to generate based on config
+2025-06-11 22:14:49,841 - ragAgent - INFO - Generating final response
+2025-06-11 22:14:49,841 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_generate.txt
+2025-06-11 22:14:50,169 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-11 22:14:50,170 - __main__ - INFO - Streaming chunk from generate: 3
+2025-06-11 22:14:50,187 - __main__ - INFO - Streaming chunk from generate: *
+2025-06-11 22:14:50,318 - __main__ - INFO - Streaming chunk from generate: 9的结果是27
+2025-06-11 22:14:50,388 - __main__ - INFO - Streaming chunk from generate: 。
+2025-06-11 22:14:50,434 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-11 22:14:56,726 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-11 22:15:39,662 - __main__ - INFO - The user's user_input is: 调用工具计算3乘以9等于多少
+2025-06-11 22:15:39,670 - ragAgent - INFO - Agent processing user query
+2025-06-11 22:15:39,671 - ragAgent - INFO - agent question:content='调用工具计算3乘以9等于多少' additional_kwargs={} response_metadata={} id='186490ed-93ef-42cd-9ff1-96e36ff2faba'
+2025-06-11 22:15:39,875 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-06-11 22:15:41,127 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-11 22:15:41,258 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-11 22:15:41,447 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-11 22:15:41,607 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-11 22:15:41,608 - __main__ - INFO - Streaming chunk from agent: 
+2025-06-11 22:15:41,611 - ragAgent - INFO - Tool multiply routed to generate based on config
+2025-06-11 22:15:41,613 - ragAgent - INFO - Generating final response
+2025-06-11 22:15:41,614 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_generate.txt
+2025-06-11 22:15:41,966 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-11 22:15:41,967 - __main__ - INFO - Streaming chunk from generate: 3
+2025-06-11 22:15:42,069 - __main__ - INFO - Streaming chunk from generate: 乘以9的结果
+2025-06-11 22:15:42,299 - __main__ - INFO - Streaming chunk from generate: 是27。
+2025-06-11 22:15:42,342 - __main__ - INFO - Streaming chunk from generate: 
+2025-06-11 22:15:56,728 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-11 22:16:56,729 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-11 22:17:56,731 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-06-11 22:18:07,207 - __main__ - INFO - Database connection pool closed
+2025-06-11 22:18:07,207 - __main__ - INFO - The service has been shut down
+2025-08-05 19:23:12,325 - __main__ - DEBUG - Tool 'retrieve' routed to 'grade_documents' (retrieval tool)
+2025-08-05 19:23:12,328 - __main__ - DEBUG - Tool 'multiply' routed to 'generate' (non-retrieval tool)
+2025-08-05 19:23:12,328 - __main__ - INFO - Initialized ToolConfig with tools: {'multiply', 'retrieve'}, routing: {'retrieve': 'grade_documents', 'multiply': 'generate'}
+2025-08-05 19:23:12,330 - __main__ - INFO - Database connection pool initialized
+2025-08-05 19:23:12,331 - __main__ - DEBUG - Database connection pool initialized
+2025-08-05 19:23:12,331 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-05 19:23:12,344 - __main__ - INFO - Connection db_connection_pool status: OK, test connection successful
+2025-08-05 19:23:36,469 - __main__ - DEBUG - Tool 'retrieve' routed to 'grade_documents' (retrieval tool)
+2025-08-05 19:23:36,470 - __main__ - DEBUG - Tool 'multiply' routed to 'generate' (non-retrieval tool)
+2025-08-05 19:23:36,471 - __main__ - INFO - Initialized ToolConfig with tools: {'multiply', 'retrieve'}, routing: {'retrieve': 'grade_documents', 'multiply': 'generate'}
+2025-08-05 19:23:36,473 - __main__ - INFO - Database connection pool initialized
+2025-08-05 19:23:36,474 - __main__ - DEBUG - Database connection pool initialized
+2025-08-05 19:23:36,474 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-05 19:23:36,492 - __main__ - INFO - Connection db_connection_pool status: OK, test connection successful
+2025-08-05 19:23:38,234 - __main__ - INFO - Graph visualization saved as graph.png
+2025-08-05 19:24:36,476 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-05 19:25:36,478 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-05 19:25:48,175 - __main__ - INFO - Agent processing user query
+2025-08-05 19:25:48,176 - __main__ - INFO - agent question:content='你好，我是聚客AI学院Kevin' additional_kwargs={} response_metadata={} id='629be157-bc53-4260-befe-6052f6dd0e1b'
+2025-08-05 19:25:48,762 - __main__ - INFO - Loading and caching prompt template from prompts/prompt_template_agent.txt
+2025-08-05 19:26:36,479 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-05 19:27:36,480 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-05 19:28:36,481 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-05 19:28:45,661 - __main__ - INFO - Database connection pool closed
+2025-08-25 20:42:18,093 - __main__ - DEBUG - Tool 'retrieve' routed to 'grade_documents' (retrieval tool)
+2025-08-25 20:42:18,095 - __main__ - DEBUG - Tool 'multiply' routed to 'generate' (non-retrieval tool)
+2025-08-25 20:42:18,096 - __main__ - INFO - Initialized ToolConfig with tools: {'retrieve', 'multiply'}, routing: {'retrieve': 'grade_documents', 'multiply': 'generate'}
+2025-08-25 20:42:18,097 - __main__ - INFO - Database connection pool initialized
+2025-08-25 20:42:18,098 - __main__ - DEBUG - Database connection pool initialized
+2025-08-25 20:42:18,100 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 20:42:18,118 - __main__ - INFO - Connection db_connection_pool status: OK, test connection successful
+2025-08-25 20:42:30,006 - __main__ - DEBUG - Tool 'retrieve' routed to 'grade_documents' (retrieval tool)
+2025-08-25 20:42:30,007 - __main__ - DEBUG - Tool 'multiply' routed to 'generate' (non-retrieval tool)
+2025-08-25 20:42:30,009 - __main__ - INFO - Initialized ToolConfig with tools: {'retrieve', 'multiply'}, routing: {'retrieve': 'grade_documents', 'multiply': 'generate'}
+2025-08-25 20:42:30,010 - __main__ - INFO - Database connection pool initialized
+2025-08-25 20:42:30,011 - __main__ - DEBUG - Database connection pool initialized
+2025-08-25 20:42:30,012 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 20:42:30,030 - __main__ - INFO - Connection db_connection_pool status: OK, test connection successful
+2025-08-25 20:43:28,966 - __main__ - DEBUG - Tool 'retrieve' routed to 'grade_documents' (retrieval tool)
+2025-08-25 20:43:28,967 - __main__ - DEBUG - Tool 'multiply' routed to 'generate' (non-retrieval tool)
+2025-08-25 20:43:28,968 - __main__ - INFO - Initialized ToolConfig with tools: {'retrieve', 'multiply'}, routing: {'retrieve': 'grade_documents', 'multiply': 'generate'}
+2025-08-25 20:43:28,969 - __main__ - INFO - Database connection pool initialized
+2025-08-25 20:43:28,970 - __main__ - DEBUG - Database connection pool initialized
+2025-08-25 20:43:28,971 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 20:43:28,986 - __main__ - INFO - Connection db_connection_pool status: OK, test connection successful
+2025-08-25 20:45:06,786 - __main__ - DEBUG - Tool 'retrieve' routed to 'grade_documents' (retrieval tool)
+2025-08-25 20:45:06,787 - __main__ - DEBUG - Tool 'multiply' routed to 'generate' (non-retrieval tool)
+2025-08-25 20:45:06,788 - __main__ - INFO - Initialized ToolConfig with tools: {'retrieve', 'multiply'}, routing: {'retrieve': 'grade_documents', 'multiply': 'generate'}
+2025-08-25 20:45:06,789 - __main__ - INFO - Database connection pool initialized
+2025-08-25 20:45:06,790 - __main__ - DEBUG - Database connection pool initialized
+2025-08-25 20:45:06,791 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 20:45:06,808 - __main__ - INFO - Connection db_connection_pool status: OK, test connection successful
+2025-08-25 20:57:22,031 - __main__ - DEBUG - Tool 'retrieve' routed to 'grade_documents' (retrieval tool)
+2025-08-25 20:57:22,032 - __main__ - DEBUG - Tool 'multiply' routed to 'generate' (non-retrieval tool)
+2025-08-25 20:57:22,033 - __main__ - INFO - Initialized ToolConfig with tools: {'retrieve', 'multiply'}, routing: {'retrieve': 'grade_documents', 'multiply': 'generate'}
+2025-08-25 20:57:22,034 - __main__ - INFO - Database connection pool initialized
+2025-08-25 20:57:22,035 - __main__ - DEBUG - Database connection pool initialized
+2025-08-25 20:57:22,036 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 20:57:22,053 - __main__ - INFO - Connection db_connection_pool status: OK, test connection successful
+2025-08-25 20:57:28,466 - __main__ - INFO - Graph visualization saved as graph.png
+2025-08-25 20:58:22,039 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 20:58:50,885 - __main__ - INFO - Agent processing user query
+2025-08-25 20:58:50,886 - __main__ - INFO - agent question:content='你好，我是聚客AI学院Kevin' additional_kwargs={} response_metadata={} id='738f5a79-5544-4bb9-a299-4c576476e998'
+2025-08-25 20:58:51,111 - __main__ - INFO - Loading and caching prompt template from prompts/prompt_template_agent.txt
+2025-08-25 20:59:09,551 - __main__ - INFO - Agent processing user query
+2025-08-25 20:59:09,552 - __main__ - INFO - agent question:content='我是谁？' additional_kwargs={} response_metadata={} id='45cad66d-424b-4f67-bfa7-d961804f6732'
+2025-08-25 20:59:09,775 - __main__ - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-08-25 20:59:22,040 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 20:59:25,263 - __main__ - INFO - Agent processing user query
+2025-08-25 20:59:25,264 - __main__ - INFO - agent question:content='3*4' additional_kwargs={} response_metadata={} id='cf2ef01c-4f0d-4e22-95c8-084b9db0b77f'
+2025-08-25 20:59:25,475 - __main__ - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-08-25 20:59:27,461 - __main__ - INFO - Calling tool: multiply
+2025-08-25 20:59:27,465 - __main__ - INFO - Tool multiply routed to generate based on config
+2025-08-25 20:59:27,467 - __main__ - INFO - Generating final response
+2025-08-25 20:59:27,468 - __main__ - INFO - Loading and caching prompt template from prompts/prompt_template_generate.txt
+2025-08-25 21:00:22,041 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:00:41,065 - __main__ - INFO - Agent processing user query
+2025-08-25 21:00:41,066 - __main__ - INFO - agent question:content='张三九的健康档案信息' additional_kwargs={} response_metadata={} id='14169480-4175-49f6-bf66-45eb97827cdf'
+2025-08-25 21:00:41,259 - __main__ - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-08-25 21:00:42,525 - __main__ - INFO - Calling tool: retrieve
+2025-08-25 21:00:42,726 - __main__ - INFO - Tool retrieve routed to grade_documents based on config
+2025-08-25 21:00:42,730 - __main__ - INFO - Grading documents for relevance
+2025-08-25 21:00:42,731 - __main__ - INFO - Loading and caching prompt template from prompts/prompt_template_grade.txt
+2025-08-25 21:00:43,977 - __main__ - INFO - Document relevance score: yes
+2025-08-25 21:00:43,978 - __main__ - INFO - Routing based on relevance_score: yes, rewrite_count: 0
+2025-08-25 21:00:43,979 - __main__ - INFO - Documents are relevant, proceeding to generate
+2025-08-25 21:00:43,982 - __main__ - INFO - Generating final response
+2025-08-25 21:00:43,983 - __main__ - INFO - Using cached prompt template for prompts/prompt_template_generate.txt
+2025-08-25 21:01:22,042 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:02:22,044 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:03:22,045 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:04:22,047 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:04:35,136 - __main__ - INFO - Agent processing user query
+2025-08-25 21:04:35,137 - __main__ - INFO - agent question:content='Kevin的健康档案信息' additional_kwargs={} response_metadata={} id='34c01f14-1064-487b-a12a-e200d87e76d1'
+2025-08-25 21:04:35,331 - __main__ - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-08-25 21:04:36,953 - __main__ - INFO - Calling tool: retrieve
+2025-08-25 21:04:37,107 - __main__ - INFO - Tool retrieve routed to grade_documents based on config
+2025-08-25 21:04:37,110 - __main__ - INFO - Grading documents for relevance
+2025-08-25 21:04:37,111 - __main__ - INFO - Using cached prompt template for prompts/prompt_template_grade.txt
+2025-08-25 21:04:38,749 - __main__ - INFO - Document relevance score: no
+2025-08-25 21:04:38,750 - __main__ - INFO - Routing based on relevance_score: no, rewrite_count: 0
+2025-08-25 21:04:38,751 - __main__ - INFO - Documents are not relevant or scoring failed, proceeding to rewrite
+2025-08-25 21:04:38,767 - __main__ - INFO - Rewriting query
+2025-08-25 21:04:38,767 - __main__ - INFO - Loading and caching prompt template from prompts/prompt_template_rewrite.txt
+2025-08-25 21:04:39,532 - __main__ - INFO - Rewrite count: 1
+2025-08-25 21:04:39,533 - __main__ - INFO - Agent processing user query
+2025-08-25 21:04:39,535 - __main__ - INFO - agent question:content='Kevin的健康档案中具体包含了哪些信息？' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 10, 'prompt_tokens': 64, 'total_tokens': 74, 'completion_tokens_details': None, 'prompt_tokens_details': {'audio_tokens': None, 'cached_tokens': 0}}, 'model_name': 'qwen-max', 'system_fingerprint': None, 'finish_reason': 'stop', 'logprobs': None} id='run--c678e0ce-5931-48dc-9217-ef257ed2a37c-0' usage_metadata={'input_tokens': 64, 'output_tokens': 10, 'total_tokens': 74, 'input_token_details': {'cache_read': 0}, 'output_token_details': {}}
+2025-08-25 21:04:39,668 - __main__ - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-08-25 21:04:41,243 - __main__ - INFO - Calling tool: retrieve
+2025-08-25 21:04:41,379 - __main__ - INFO - Tool retrieve routed to grade_documents based on config
+2025-08-25 21:04:41,382 - __main__ - INFO - Grading documents for relevance
+2025-08-25 21:04:41,383 - __main__ - INFO - Using cached prompt template for prompts/prompt_template_grade.txt
+2025-08-25 21:04:42,745 - __main__ - INFO - Document relevance score: no
+2025-08-25 21:04:42,746 - __main__ - INFO - Routing based on relevance_score: no, rewrite_count: 1
+2025-08-25 21:04:42,747 - __main__ - INFO - Documents are not relevant or scoring failed, proceeding to rewrite
+2025-08-25 21:04:42,750 - __main__ - INFO - Rewriting query
+2025-08-25 21:04:42,751 - __main__ - INFO - Using cached prompt template for prompts/prompt_template_rewrite.txt
+2025-08-25 21:04:43,423 - __main__ - INFO - Rewrite count: 2
+2025-08-25 21:04:43,425 - __main__ - INFO - Agent processing user query
+2025-08-25 21:04:43,426 - __main__ - INFO - agent question:content='Kevin的健康档案中包含了哪些具体信息？' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 10, 'prompt_tokens': 64, 'total_tokens': 74, 'completion_tokens_details': None, 'prompt_tokens_details': {'audio_tokens': None, 'cached_tokens': 0}}, 'model_name': 'qwen-max', 'system_fingerprint': None, 'finish_reason': 'stop', 'logprobs': None} id='run--c489f948-ba96-4362-a424-d9068b3dc466-0' usage_metadata={'input_tokens': 64, 'output_tokens': 10, 'total_tokens': 74, 'input_token_details': {'cache_read': 0}, 'output_token_details': {}}
+2025-08-25 21:04:43,579 - __main__ - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-08-25 21:04:44,994 - __main__ - INFO - Calling tool: retrieve
+2025-08-25 21:04:45,127 - __main__ - INFO - Tool retrieve routed to grade_documents based on config
+2025-08-25 21:04:45,130 - __main__ - INFO - Grading documents for relevance
+2025-08-25 21:04:45,131 - __main__ - INFO - Using cached prompt template for prompts/prompt_template_grade.txt
+2025-08-25 21:04:45,899 - __main__ - INFO - Document relevance score: no
+2025-08-25 21:04:45,900 - __main__ - INFO - Routing based on relevance_score: no, rewrite_count: 2
+2025-08-25 21:04:45,901 - __main__ - INFO - Documents are not relevant or scoring failed, proceeding to rewrite
+2025-08-25 21:04:45,905 - __main__ - INFO - Rewriting query
+2025-08-25 21:04:45,906 - __main__ - INFO - Using cached prompt template for prompts/prompt_template_rewrite.txt
+2025-08-25 21:04:46,904 - __main__ - INFO - Rewrite count: 3
+2025-08-25 21:04:46,906 - __main__ - INFO - Agent processing user query
+2025-08-25 21:04:46,907 - __main__ - INFO - agent question:content='Kevin的健康档案中包含哪些具体信息？' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 10, 'prompt_tokens': 64, 'total_tokens': 74, 'completion_tokens_details': None, 'prompt_tokens_details': {'audio_tokens': None, 'cached_tokens': 0}}, 'model_name': 'qwen-max', 'system_fingerprint': None, 'finish_reason': 'stop', 'logprobs': None} id='run--14c4e8ae-7d8d-488d-b942-910dde1ab64d-0' usage_metadata={'input_tokens': 64, 'output_tokens': 10, 'total_tokens': 74, 'input_token_details': {'cache_read': 0}, 'output_token_details': {}}
+2025-08-25 21:04:47,051 - __main__ - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-08-25 21:04:51,936 - __main__ - INFO - Calling tool: retrieve
+2025-08-25 21:04:52,072 - __main__ - INFO - Tool retrieve routed to grade_documents based on config
+2025-08-25 21:04:52,076 - __main__ - INFO - Grading documents for relevance
+2025-08-25 21:04:52,077 - __main__ - INFO - Using cached prompt template for prompts/prompt_template_grade.txt
+2025-08-25 21:04:52,898 - __main__ - INFO - Document relevance score: no
+2025-08-25 21:04:52,899 - __main__ - INFO - Routing based on relevance_score: no, rewrite_count: 3
+2025-08-25 21:04:52,899 - __main__ - INFO - Max rewrite limit reached, proceeding to generate
+2025-08-25 21:04:52,903 - __main__ - INFO - Generating final response
+2025-08-25 21:04:52,904 - __main__ - INFO - Using cached prompt template for prompts/prompt_template_generate.txt
+2025-08-25 21:05:22,048 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:06:22,049 - __main__ - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:06:23,463 - __main__ - INFO - Database connection pool closed
+2025-08-25 21:27:46,095 - __main__ - INFO - Start the server on port 8012
+2025-08-25 21:27:49,032 - ragAgent - DEBUG - Tool 'retrieve' routed to 'grade_documents' (retrieval tool)
+2025-08-25 21:27:49,033 - ragAgent - DEBUG - Tool 'multiply' routed to 'generate' (non-retrieval tool)
+2025-08-25 21:27:49,034 - ragAgent - INFO - Initialized ToolConfig with tools: {'multiply', 'retrieve'}, routing: {'retrieve': 'grade_documents', 'multiply': 'generate'}
+2025-08-25 21:27:49,035 - __main__ - INFO - Database connection pool initialized
+2025-08-25 21:27:49,037 - __main__ - DEBUG - Database connection pool initialized
+2025-08-25 21:27:49,038 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:27:49,055 - ragAgent - INFO - Connection db_connection_pool status: OK, test connection successful
+2025-08-25 21:27:50,224 - ragAgent - INFO - Graph visualization saved as graph.png
+2025-08-25 21:28:49,040 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:29:47,333 - __main__ - INFO - The user's user_input is: 查询张三九的健康档案信息
+2025-08-25 21:29:47,349 - ragAgent - INFO - Agent processing user query
+2025-08-25 21:29:47,350 - ragAgent - INFO - agent question:content='查询张三九的健康档案信息' additional_kwargs={} response_metadata={} id='acd475b2-ca04-4bfa-afa8-01f2998f72dc'
+2025-08-25 21:29:47,575 - ragAgent - INFO - Loading and caching prompt template from prompts/prompt_template_agent.txt
+2025-08-25 21:29:48,300 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:29:48,421 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:29:48,724 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:29:48,727 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:29:48,907 - ragAgent - INFO - Tool retrieve routed to grade_documents based on config
+2025-08-25 21:29:48,910 - ragAgent - INFO - Grading documents for relevance
+2025-08-25 21:29:48,910 - ragAgent - INFO - Loading and caching prompt template from prompts/prompt_template_grade.txt
+2025-08-25 21:29:49,041 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:29:50,233 - ragAgent - INFO - Document relevance score: yes
+2025-08-25 21:29:50,235 - ragAgent - INFO - Routing based on relevance_score: yes, rewrite_count: 0
+2025-08-25 21:29:50,236 - ragAgent - INFO - Documents are relevant, proceeding to generate
+2025-08-25 21:29:50,239 - ragAgent - INFO - Generating final response
+2025-08-25 21:29:50,240 - ragAgent - INFO - Loading and caching prompt template from prompts/prompt_template_generate.txt
+2025-08-25 21:29:51,328 - __main__ - INFO - Streaming chunk from generate: 
+2025-08-25 21:29:51,331 - __main__ - INFO - Streaming chunk from generate: 张
+2025-08-25 21:29:51,355 - __main__ - INFO - Streaming chunk from generate: 三九的
+2025-08-25 21:29:51,411 - __main__ - INFO - Streaming chunk from generate: 健康档案信息
+2025-08-25 21:29:51,487 - __main__ - INFO - Streaming chunk from generate: 如下：
+
+###
+2025-08-25 21:29:51,587 - __main__ - INFO - Streaming chunk from generate:  一、基本信息
+2025-08-25 21:29:51,714 - __main__ - INFO - Streaming chunk from generate: 
+- **姓名**：
+2025-08-25 21:29:51,817 - __main__ - INFO - Streaming chunk from generate: 张三九
+- **
+2025-08-25 21:29:51,949 - __main__ - INFO - Streaming chunk from generate: 性别**：男
+-
+2025-08-25 21:29:52,043 - __main__ - INFO - Streaming chunk from generate:  **出生日期**：1
+2025-08-25 21:29:52,177 - __main__ - INFO - Streaming chunk from generate: 985年5月
+2025-08-25 21:29:52,275 - __main__ - INFO - Streaming chunk from generate: 20日
+- **
+2025-08-25 21:29:52,408 - __main__ - INFO - Streaming chunk from generate: 年龄**：39岁
+2025-08-25 21:29:52,881 - __main__ - INFO - Streaming chunk from generate: 
+- **婚姻状况**
+2025-08-25 21:29:53,021 - __main__ - INFO - Streaming chunk from generate: ：已婚
+- **
+2025-08-25 21:29:53,121 - __main__ - INFO - Streaming chunk from generate: 职业**：IT工程师
+
+2025-08-25 21:29:53,260 - __main__ - INFO - Streaming chunk from generate: - **血型**：
+2025-08-25 21:29:53,366 - __main__ - INFO - Streaming chunk from generate: O型
+- **联系电话
+2025-08-25 21:29:53,565 - __main__ - INFO - Streaming chunk from generate: **：138-
+2025-08-25 21:29:53,667 - __main__ - INFO - Streaming chunk from generate: 1234-5
+2025-08-25 21:29:53,793 - __main__ - INFO - Streaming chunk from generate: 678
+- **
+2025-08-25 21:29:53,929 - __main__ - INFO - Streaming chunk from generate: 电子邮箱**：
+2025-08-25 21:29:54,052 - __main__ - INFO - Streaming chunk from generate: zhangsan@example.com
+
+2025-08-25 21:29:54,163 - __main__ - INFO - Streaming chunk from generate: - **居住地址
+2025-08-25 21:29:54,305 - __main__ - INFO - Streaming chunk from generate: **：上海市浦东新区张
+2025-08-25 21:29:54,406 - __main__ - INFO - Streaming chunk from generate: 江路123号
+2025-08-25 21:29:54,534 - __main__ - INFO - Streaming chunk from generate: 
+- **紧急
+2025-08-25 21:29:54,678 - __main__ - INFO - Streaming chunk from generate: 联系人**：妻子
+2025-08-25 21:29:54,795 - __main__ - INFO - Streaming chunk from generate: 李四六，联系电话1
+2025-08-25 21:29:54,932 - __main__ - INFO - Streaming chunk from generate: 38-876
+2025-08-25 21:29:55,037 - __main__ - INFO - Streaming chunk from generate: 5-4321
+2025-08-25 21:29:55,280 - __main__ - INFO - Streaming chunk from generate: 
+
+### 二、医疗
+2025-08-25 21:29:55,284 - __main__ - INFO - Streaming chunk from generate: 历史
+- **高血压**
+2025-08-25 21:29:55,424 - __main__ - INFO - Streaming chunk from generate: ：2005
+2025-08-25 21:29:55,530 - __main__ - INFO - Streaming chunk from generate: 年确诊，接受
+2025-08-25 21:29:55,672 - __main__ - INFO - Streaming chunk from generate: 降压药物治疗。
+-
+2025-08-25 21:29:55,780 - __main__ - INFO - Streaming chunk from generate:  **二型糖尿病**：
+2025-08-25 21:29:55,926 - __main__ - INFO - Streaming chunk from generate: 2010年确诊
+2025-08-25 21:29:56,031 - __main__ - INFO - Streaming chunk from generate: ，使用口服降糖
+2025-08-25 21:29:56,167 - __main__ - INFO - Streaming chunk from generate: 药管理。
+- **脂肪
+2025-08-25 21:29:56,406 - __main__ - INFO - Streaming chunk from generate: 肝**：201
+2025-08-25 21:29:56,523 - __main__ - INFO - Streaming chunk from generate: 7年诊断，建议
+2025-08-25 21:29:56,657 - __main__ - INFO - Streaming chunk from generate: 通过饮食调整和增加运动
+2025-08-25 21:29:56,765 - __main__ - INFO - Streaming chunk from generate: 改善。
+- **腰椎
+2025-08-25 21:29:56,905 - __main__ - INFO - Streaming chunk from generate: 间盘突出**：2
+2025-08-25 21:29:57,024 - __main__ - INFO - Streaming chunk from generate: 022年接受
+2025-08-25 21:29:57,162 - __main__ - INFO - Streaming chunk from generate: 微创手术，术后恢复良好
+2025-08-25 21:29:57,266 - __main__ - INFO - Streaming chunk from generate: 。
+- **过敏
+2025-08-25 21:29:57,460 - __main__ - INFO - Streaming chunk from generate: 史**：
+  - 对
+2025-08-25 21:29:57,566 - __main__ - INFO - Streaming chunk from generate: 青霉素有过敏反应（
+2025-08-25 21:29:57,758 - __main__ - INFO - Streaming chunk from generate: 皮疹、呼吸困难）
+2025-08-25 21:29:57,880 - __main__ - INFO - Streaming chunk from generate: 。
+  - 海鲜
+2025-08-25 21:29:58,025 - __main__ - INFO - Streaming chunk from generate: 会导致轻度皮肤发痒
+2025-08-25 21:29:58,128 - __main__ - INFO - Streaming chunk from generate: 。
+
+### 三、家族
+2025-08-25 21:29:58,319 - __main__ - INFO - Streaming chunk from generate: 病史
+-
+2025-08-25 21:29:58,423 - __main__ - INFO - Streaming chunk from generate:  父亲：
+2025-08-25 21:29:58,540 - __main__ - INFO - Streaming chunk from generate: 患有高血压和二
+2025-08-25 21:29:58,688 - __main__ - INFO - Streaming chunk from generate: 型糖尿病。
+-
+2025-08-25 21:29:58,794 - __main__ - INFO - Streaming chunk from generate:  母亲：有甲状腺疾病
+2025-08-25 21:29:58,934 - __main__ - INFO - Streaming chunk from generate: 史。
+
+### 四
+2025-08-25 21:29:59,099 - __main__ - INFO - Streaming chunk from generate: 、生活方式与习惯
+-
+2025-08-25 21:29:59,234 - __main__ - INFO - Streaming chunk from generate:  **饮食习惯**：偏好
+2025-08-25 21:29:59,344 - __main__ - INFO - Streaming chunk from generate: 高脂肪和高糖食品
+2025-08-25 21:29:59,491 - __main__ - INFO - Streaming chunk from generate: ，蔬菜水果摄入少
+2025-08-25 21:29:59,612 - __main__ - INFO - Streaming chunk from generate: ，盐分摄入偏高
+2025-08-25 21:29:59,734 - __main__ - INFO - Streaming chunk from generate: 。
+- **运动情况
+2025-08-25 21:29:59,838 - __main__ - INFO - Streaming chunk from generate: **：工作繁忙，每周
+2025-08-25 21:29:59,979 - __main__ - INFO - Streaming chunk from generate: 仅进行一次轻度运动
+2025-08-25 21:30:00,082 - __main__ - INFO - Streaming chunk from generate: 如散步。
+-
+2025-08-25 21:30:00,228 - __main__ - INFO - Streaming chunk from generate:  **饮酒情况**：
+2025-08-25 21:30:00,331 - __main__ - INFO - Streaming chunk from generate: 无吸烟史，
+2025-08-25 21:30:00,454 - __main__ - INFO - Streaming chunk from generate: 但每周饮酒2
+2025-08-25 21:30:00,604 - __main__ - INFO - Streaming chunk from generate: 至3次，每次约
+2025-08-25 21:30:00,710 - __main__ - INFO - Streaming chunk from generate: 300毫升啤酒。
+
+2025-08-25 21:30:00,853 - __main__ - INFO - Streaming chunk from generate: - **睡眠情况**：
+2025-08-25 21:30:00,958 - __main__ - INFO - Streaming chunk from generate: 每晚平均睡眠
+2025-08-25 21:30:01,081 - __main__ - INFO - Streaming chunk from generate: 时间6小时，
+2025-08-25 21:30:01,219 - __main__ - INFO - Streaming chunk from generate: 常感到疲惫。
+
+
+2025-08-25 21:30:01,328 - __main__ - INFO - Streaming chunk from generate: ### 五、体检与
+2025-08-25 21:30:01,450 - __main__ - INFO - Streaming chunk from generate: 化验结果（
+2025-08-25 21:30:01,588 - __main__ - INFO - Streaming chunk from generate: 2024
+2025-08-25 21:30:01,691 - __main__ - INFO - Streaming chunk from generate: 年8月15日
+2025-08-25 21:30:01,831 - __main__ - INFO - Streaming chunk from generate: ）
+- **身高**：
+2025-08-25 21:30:01,927 - __main__ - INFO - Streaming chunk from generate: 175厘米
+-
+2025-08-25 21:30:02,074 - __main__ - INFO - Streaming chunk from generate:  **体重**：78
+2025-08-25 21:30:02,167 - __main__ - INFO - Streaming chunk from generate: 公斤
+- **BMI
+2025-08-25 21:30:02,312 - __main__ - INFO - Streaming chunk from generate: **：25.5
+2025-08-25 21:30:02,390 - __main__ - INFO - Streaming chunk from generate: （超重）
+
+2025-08-25 21:30:02,504 - __main__ - INFO - Streaming chunk from generate: - **腰围**：
+2025-08-25 21:30:02,643 - __main__ - INFO - Streaming chunk from generate: 92厘米（略高于
+2025-08-25 21:30:02,735 - __main__ - INFO - Streaming chunk from generate: 健康范围）
+- **血压
+2025-08-25 21:30:02,878 - __main__ - INFO - Streaming chunk from generate: **：135/
+2025-08-25 21:30:02,975 - __main__ - INFO - Streaming chunk from generate: 85毫米汞柱（
+2025-08-25 21:30:03,114 - __main__ - INFO - Streaming chunk from generate: 轻度高血压）
+- **
+2025-08-25 21:30:03,210 - __main__ - INFO - Streaming chunk from generate: 心率**：78
+2025-08-25 21:30:03,343 - __main__ - INFO - Streaming chunk from generate: 次/分钟（正常范围
+2025-08-25 21:30:03,442 - __main__ - INFO - Streaming chunk from generate: ）
+- **血糖
+2025-08-25 21:30:03,569 - __main__ - INFO - Streaming chunk from generate: 水平**：
+ 
+2025-08-25 21:30:03,665 - __main__ - INFO - Streaming chunk from generate:  - 空腹血糖
+2025-08-25 21:30:03,781 - __main__ - INFO - Streaming chunk from generate: ：6.8毫摩
+2025-08-25 21:30:03,922 - __main__ - INFO - Streaming chunk from generate: 尔/升（略高于
+2025-08-25 21:30:04,020 - __main__ - INFO - Streaming chunk from generate: 正常范围）
+  -
+2025-08-25 21:30:04,173 - __main__ - INFO - Streaming chunk from generate:  餐后2小时血糖
+2025-08-25 21:30:04,271 - __main__ - INFO - Streaming chunk from generate: ：8.9毫摩
+2025-08-25 21:30:04,388 - __main__ - INFO - Streaming chunk from generate: 尔/升（高于
+2025-08-25 21:30:04,519 - __main__ - INFO - Streaming chunk from generate: 正常标准）
+
+以上是张
+2025-08-25 21:30:04,640 - __main__ - INFO - Streaming chunk from generate: 三九的健康档案信息
+2025-08-25 21:30:04,767 - __main__ - INFO - Streaming chunk from generate: 。如果需要更
+2025-08-25 21:30:04,911 - __main__ - INFO - Streaming chunk from generate: 详细的资料或其他帮助
+2025-08-25 21:30:05,040 - __main__ - INFO - Streaming chunk from generate: ，请告诉我。
+2025-08-25 21:30:05,064 - __main__ - INFO - Streaming chunk from generate: 
+2025-08-25 21:30:43,455 - __main__ - INFO - The user's user_input is: 你好，我是聚客AI学院Kevin
+2025-08-25 21:30:43,464 - ragAgent - INFO - Agent processing user query
+2025-08-25 21:30:43,465 - ragAgent - INFO - agent question:content='你好，我是聚客AI学院Kevin' additional_kwargs={} response_metadata={} id='45bb7f6d-efc3-40bb-a6e3-094311743130'
+2025-08-25 21:30:43,693 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-08-25 21:30:44,361 - __main__ - INFO - Streaming chunk from agent: 你好
+2025-08-25 21:30:44,422 - __main__ - INFO - Streaming chunk from agent: ，Kevin
+2025-08-25 21:30:44,487 - __main__ - INFO - Streaming chunk from agent: ！
+2025-08-25 21:30:44,551 - __main__ - INFO - Streaming chunk from agent: 请问
+2025-08-25 21:30:44,752 - __main__ - INFO - Streaming chunk from agent: 有什么我可以帮您的？
+2025-08-25 21:30:44,819 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:30:49,042 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:30:57,970 - __main__ - INFO - The user's user_input is: 我是谁
+2025-08-25 21:30:57,977 - ragAgent - INFO - Agent processing user query
+2025-08-25 21:30:57,978 - ragAgent - INFO - agent question:content='我是谁' additional_kwargs={} response_metadata={} id='24622c85-ed2e-4ab6-a5d9-2c27713d1691'
+2025-08-25 21:30:58,198 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-08-25 21:30:58,923 - __main__ - INFO - Streaming chunk from agent: 您好
+2025-08-25 21:30:59,018 - __main__ - INFO - Streaming chunk from agent: ，Kevin
+2025-08-25 21:30:59,111 - __main__ - INFO - Streaming chunk from agent: ！您
+2025-08-25 21:30:59,211 - __main__ - INFO - Streaming chunk from agent: 之前
+2025-08-25 21:30:59,507 - __main__ - INFO - Streaming chunk from agent: 提到自己是聚客
+2025-08-25 21:31:00,933 - __main__ - INFO - Streaming chunk from agent: AI学院的成员
+2025-08-25 21:31:01,237 - __main__ - INFO - Streaming chunk from agent: 。如果还有其他问题或
+2025-08-25 21:31:01,400 - __main__ - INFO - Streaming chunk from agent: 需要进一步的帮助，请告诉我
+2025-08-25 21:31:01,499 - __main__ - INFO - Streaming chunk from agent: 。
+2025-08-25 21:31:01,515 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:31:49,044 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:32:49,045 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:33:09,133 - __main__ - INFO - The user's user_input is: 我是谁
+2025-08-25 21:33:09,139 - ragAgent - INFO - Agent processing user query
+2025-08-25 21:33:09,140 - ragAgent - INFO - agent question:content='我是谁' additional_kwargs={} response_metadata={} id='0c70af20-f907-4fa7-9ee2-bbc0ed33f59c'
+2025-08-25 21:33:09,341 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-08-25 21:33:09,851 - __main__ - INFO - Streaming chunk from agent: 您的
+2025-08-25 21:33:10,117 - __main__ - INFO - Streaming chunk from agent: 问题与健康
+2025-08-25 21:33:10,195 - __main__ - INFO - Streaming chunk from agent: 档案无关
+2025-08-25 21:33:10,257 - __main__ - INFO - Streaming chunk from agent: ，您
+2025-08-25 21:33:10,667 - __main__ - INFO - Streaming chunk from agent: 似乎是想了解自己的
+2025-08-25 21:33:10,788 - __main__ - INFO - Streaming chunk from agent: 身份信息。在这里
+2025-08-25 21:33:11,057 - __main__ - INFO - Streaming chunk from agent: 我无法获取到
+2025-08-25 21:33:11,202 - __main__ - INFO - Streaming chunk from agent: 您的个人信息，因为我
+2025-08-25 21:33:11,390 - __main__ - INFO - Streaming chunk from agent: 是一个智能分诊助手
+2025-08-25 21:33:11,608 - __main__ - INFO - Streaming chunk from agent: ，我的主要任务
+2025-08-25 21:33:11,724 - __main__ - INFO - Streaming chunk from agent: 是帮助解答关于
+2025-08-25 21:33:11,872 - __main__ - INFO - Streaming chunk from agent: 健康档案的问题或
+2025-08-25 21:33:12,052 - __main__ - INFO - Streaming chunk from agent: 使用计算工具。如果您
+2025-08-25 21:33:12,197 - __main__ - INFO - Streaming chunk from agent: 有关于健康档案
+2025-08-25 21:33:12,380 - __main__ - INFO - Streaming chunk from agent: 的查询，欢迎
+2025-08-25 21:33:12,514 - __main__ - INFO - Streaming chunk from agent: 随时提问。如果
+2025-08-25 21:33:12,804 - __main__ - INFO - Streaming chunk from agent: 需要了解个人身份，请
+2025-08-25 21:33:12,978 - __main__ - INFO - Streaming chunk from agent: 检查您提供的个人
+2025-08-25 21:33:13,190 - __main__ - INFO - Streaming chunk from agent: 资料或上下文是否有
+2025-08-25 21:33:13,382 - __main__ - INFO - Streaming chunk from agent: 相关信息。
+2025-08-25 21:33:13,399 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:33:49,046 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:34:01,547 - __main__ - INFO - The user's user_input is: kevin的健康档案信息
+2025-08-25 21:34:01,552 - ragAgent - INFO - Agent processing user query
+2025-08-25 21:34:01,553 - ragAgent - INFO - agent question:content='kevin的健康档案信息' additional_kwargs={} response_metadata={} id='16eae4f2-2c56-4250-8f0d-6990916a0150'
+2025-08-25 21:34:01,756 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-08-25 21:34:02,643 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:02,859 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:03,048 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:03,164 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:03,165 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:03,305 - ragAgent - INFO - Tool retrieve routed to grade_documents based on config
+2025-08-25 21:34:03,307 - ragAgent - INFO - Grading documents for relevance
+2025-08-25 21:34:03,308 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_grade.txt
+2025-08-25 21:34:04,489 - ragAgent - INFO - Document relevance score: no
+2025-08-25 21:34:04,491 - ragAgent - INFO - Routing based on relevance_score: no, rewrite_count: 0
+2025-08-25 21:34:04,492 - ragAgent - INFO - Documents are not relevant or scoring failed, proceeding to rewrite
+2025-08-25 21:34:04,494 - ragAgent - INFO - Rewriting query
+2025-08-25 21:34:04,495 - ragAgent - INFO - Loading and caching prompt template from prompts/prompt_template_rewrite.txt
+2025-08-25 21:34:05,283 - ragAgent - INFO - Rewrite count: 1
+2025-08-25 21:34:05,284 - ragAgent - INFO - Agent processing user query
+2025-08-25 21:34:05,285 - ragAgent - INFO - agent question:content='Kevin的健康档案中具体包含了哪些信息？' additional_kwargs={} response_metadata={'finish_reason': 'stop', 'model_name': 'qwen-max'} id='run--d636cb56-b535-4b3b-94b9-3c34892d8eaa'
+2025-08-25 21:34:05,448 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-08-25 21:34:06,857 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:07,072 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:07,253 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:07,631 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:07,734 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:07,735 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:07,860 - ragAgent - INFO - Tool retrieve routed to grade_documents based on config
+2025-08-25 21:34:07,862 - ragAgent - INFO - Grading documents for relevance
+2025-08-25 21:34:07,863 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_grade.txt
+2025-08-25 21:34:09,557 - ragAgent - INFO - Document relevance score: no
+2025-08-25 21:34:09,559 - ragAgent - INFO - Routing based on relevance_score: no, rewrite_count: 1
+2025-08-25 21:34:09,559 - ragAgent - INFO - Documents are not relevant or scoring failed, proceeding to rewrite
+2025-08-25 21:34:09,561 - ragAgent - INFO - Rewriting query
+2025-08-25 21:34:09,563 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_rewrite.txt
+2025-08-25 21:34:10,496 - ragAgent - INFO - Rewrite count: 2
+2025-08-25 21:34:10,498 - ragAgent - INFO - Agent processing user query
+2025-08-25 21:34:10,499 - ragAgent - INFO - agent question:content='Kevin的健康档案中具体包含哪些信息？' additional_kwargs={} response_metadata={'finish_reason': 'stop', 'model_name': 'qwen-max'} id='run--b5f6cb0a-024d-4e0c-a144-63e9420eb3c5'
+2025-08-25 21:34:10,635 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-08-25 21:34:12,191 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:12,384 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:12,530 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:12,724 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:12,726 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:12,883 - ragAgent - INFO - Tool retrieve routed to grade_documents based on config
+2025-08-25 21:34:12,885 - ragAgent - INFO - Grading documents for relevance
+2025-08-25 21:34:12,885 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_grade.txt
+2025-08-25 21:34:14,548 - ragAgent - INFO - Document relevance score: no
+2025-08-25 21:34:14,549 - ragAgent - INFO - Routing based on relevance_score: no, rewrite_count: 2
+2025-08-25 21:34:14,549 - ragAgent - INFO - Documents are not relevant or scoring failed, proceeding to rewrite
+2025-08-25 21:34:14,551 - ragAgent - INFO - Rewriting query
+2025-08-25 21:34:14,552 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_rewrite.txt
+2025-08-25 21:34:15,171 - ragAgent - INFO - Rewrite count: 3
+2025-08-25 21:34:15,174 - ragAgent - INFO - Agent processing user query
+2025-08-25 21:34:15,174 - ragAgent - INFO - agent question:content='Kevin的健康档案中包含哪些具体信息？' additional_kwargs={} response_metadata={'finish_reason': 'stop', 'model_name': 'qwen-max'} id='run--42ee2b16-0c55-45f4-bfed-6e32cabfac45'
+2025-08-25 21:34:15,345 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-08-25 21:34:17,238 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:17,396 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:17,525 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:17,684 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:17,686 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:34:17,808 - ragAgent - INFO - Tool retrieve routed to grade_documents based on config
+2025-08-25 21:34:17,811 - ragAgent - INFO - Grading documents for relevance
+2025-08-25 21:34:17,811 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_grade.txt
+2025-08-25 21:34:20,191 - ragAgent - INFO - Document relevance score: no
+2025-08-25 21:34:20,192 - ragAgent - INFO - Routing based on relevance_score: no, rewrite_count: 3
+2025-08-25 21:34:20,193 - ragAgent - INFO - Max rewrite limit reached, proceeding to generate
+2025-08-25 21:34:20,195 - ragAgent - INFO - Generating final response
+2025-08-25 21:34:20,196 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_generate.txt
+2025-08-25 21:34:21,055 - __main__ - INFO - Streaming chunk from generate: 
+2025-08-25 21:34:21,056 - __main__ - INFO - Streaming chunk from generate: 您好
+2025-08-25 21:34:21,261 - __main__ - INFO - Streaming chunk from generate: ！
+2025-08-25 21:34:21,343 - __main__ - INFO - Streaming chunk from generate: 根据
+2025-08-25 21:34:21,436 - __main__ - INFO - Streaming chunk from generate: 您提供的信息
+2025-08-25 21:34:21,736 - __main__ - INFO - Streaming chunk from generate: ，似乎这里提到
+2025-08-25 21:34:21,998 - __main__ - INFO - Streaming chunk from generate: 的健康档案是关于
+2025-08-25 21:34:22,184 - __main__ - INFO - Streaming chunk from generate: 一位名叫王五
+2025-08-25 21:34:22,389 - __main__ - INFO - Streaming chunk from generate: 的45岁男性
+2025-08-25 21:34:22,759 - __main__ - INFO - Streaming chunk from generate: ，并非kevin。因此
+2025-08-25 21:34:23,059 - __main__ - INFO - Streaming chunk from generate: ，我无法直接
+2025-08-25 21:34:23,541 - __main__ - INFO - Streaming chunk from generate: 提供kevin的健康
+2025-08-25 21:34:23,755 - __main__ - INFO - Streaming chunk from generate: 档案信息。如果您能
+2025-08-25 21:34:23,903 - __main__ - INFO - Streaming chunk from generate: 提供更多关于kevin
+2025-08-25 21:34:24,056 - __main__ - INFO - Streaming chunk from generate: 的具体信息，比如
+2025-08-25 21:34:24,174 - __main__ - INFO - Streaming chunk from generate: 他的全名、年龄
+2025-08-25 21:34:24,549 - __main__ - INFO - Streaming chunk from generate: 或其他识别信息，或许
+2025-08-25 21:34:24,673 - __main__ - INFO - Streaming chunk from generate: 我能更好地帮助到
+2025-08-25 21:34:24,811 - __main__ - INFO - Streaming chunk from generate: 您。另外，请
+2025-08-25 21:34:25,034 - __main__ - INFO - Streaming chunk from generate: 确保分享的信息遵守
+2025-08-25 21:34:25,228 - __main__ - INFO - Streaming chunk from generate: 隐私保护原则。如果
+2025-08-25 21:34:25,447 - __main__ - INFO - Streaming chunk from generate: 这些信息不足以找到
+2025-08-25 21:34:25,573 - __main__ - INFO - Streaming chunk from generate: kevin的相关资料
+2025-08-25 21:34:25,794 - __main__ - INFO - Streaming chunk from generate: ，可能需要从
+2025-08-25 21:34:25,915 - __main__ - INFO - Streaming chunk from generate: 其他来源获取更
+2025-08-25 21:34:26,125 - __main__ - INFO - Streaming chunk from generate: 准确的数据。
+2025-08-25 21:34:26,145 - __main__ - INFO - Streaming chunk from generate: 
+2025-08-25 21:34:49,047 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:35:49,049 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:36:49,051 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:37:49,052 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:38:49,054 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:39:49,056 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:40:49,057 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:41:49,059 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:42:49,060 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:43:49,061 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:44:31,039 - __main__ - INFO - The user's user_input is: 我是谁
+2025-08-25 21:44:31,047 - ragAgent - INFO - Agent processing user query
+2025-08-25 21:44:31,048 - ragAgent - INFO - agent question:content='我是谁' additional_kwargs={} response_metadata={} id='d1e156db-adcf-4268-b6f2-5246b2c49050'
+2025-08-25 21:44:31,256 - ragAgent - INFO - Using cached prompt template for prompts/prompt_template_agent.txt
+2025-08-25 21:44:31,890 - __main__ - INFO - Streaming chunk from agent: 您好
+2025-08-25 21:44:31,971 - __main__ - INFO - Streaming chunk from agent: ，Kevin！
+2025-08-25 21:44:32,228 - __main__ - INFO - Streaming chunk from agent: 您之前提到
+2025-08-25 21:44:32,255 - __main__ - INFO - Streaming chunk from agent: 自己是聚
+2025-08-25 21:44:32,259 - __main__ - INFO - Streaming chunk from agent: 客AI学院的成员。
+2025-08-25 21:44:32,311 - __main__ - INFO - Streaming chunk from agent: 如果还有其他问题或需要
+2025-08-25 21:44:32,414 - __main__ - INFO - Streaming chunk from agent: 进一步的帮助，请告诉我。
+2025-08-25 21:44:32,436 - __main__ - INFO - Streaming chunk from agent: 
+2025-08-25 21:44:49,062 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:45:49,064 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:46:49,066 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:47:49,068 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:48:49,069 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:49:49,070 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:50:49,072 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:51:49,074 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:52:49,075 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:53:49,076 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:54:49,078 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:55:49,080 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:56:49,081 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:57:49,083 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:58:49,085 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 21:59:49,087 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 22:00:49,088 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 22:01:49,090 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 22:02:49,091 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 22:03:49,093 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 22:04:49,095 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 22:05:49,096 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 22:06:49,098 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 22:07:49,099 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 22:08:49,101 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 22:09:49,102 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 22:10:49,103 - ragAgent - INFO - Connection db_connection_pool status: 0/20 connections in use
+2025-08-25 22:10:50,478 - __main__ - INFO - Database connection pool closed
+2025-08-25 22:10:50,478 - __main__ - INFO - The service has been shut down
